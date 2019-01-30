@@ -13,7 +13,7 @@
     >
       <v-img
         :aspect-ratio="16/9"
-        src="https://cdn.vuetifyjs.com/images/cards/kitchen.png"
+        :src= 'tests'
       >
         <v-expand-transition>
           <div
@@ -21,7 +21,7 @@
             class="d-flex transition-slow-in-fast-out orange darken-2 v-card--reveal display-3 white--text"
             style="height: 100%;"
           >
-            <div>{{ hello }}</div>
+            <!-- <div>{{ hello }}</div> -->
           </div>
         </v-expand-transition>
       </v-img>
@@ -29,7 +29,7 @@
           class="pt-4 hidden-md-and-up"
           style="position: relative;"
         >
-          <div>{{ hello }}</div>
+          <div>{{ post.title }}</div>
           <!-- <h3 class="display-1 font-weight-light orange--text mb-2">Embrace Friction</h3> -->
 
         </v-card-text>
@@ -43,15 +43,21 @@
 import gql from 'graphql-tag'
 export default {
   name: 'BlogHome',
+
   apollo: {
-    // Simple query that will update the 'hello' vue property
-    hello: gql`{
-      User(id: "wk0z1j1tzj7xc0116is3ckdrx") {
-
-    firstName
-
-  }
+    post: gql`{
+      post(where: {id: "cjrg2t0z7b9u30a23puhi9gxk"}) {
+         coverPhoto {
+           url
+         }
+         title
+      }
     }`
+  },
+  data () {
+    return {
+      tests: 'https://media.graphcms.com//qNK66222TUuUyW0reCmI'
+    }
   }
 }
 </script>
