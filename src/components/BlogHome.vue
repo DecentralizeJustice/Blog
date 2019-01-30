@@ -21,7 +21,7 @@
             class="d-flex transition-slow-in-fast-out orange darken-2 v-card--reveal display-3 white--text"
             style="height: 100%;"
           >
-            Embrace Friction
+            <div>{{ hello }}</div>
           </div>
         </v-expand-transition>
       </v-img>
@@ -29,8 +29,8 @@
           class="pt-4 hidden-md-and-up"
           style="position: relative;"
         >
-
-          <h3 class="display-1 font-weight-light orange--text mb-2">Embrace Friction</h3>
+          <div>{{ hello }}</div>
+          <!-- <h3 class="display-1 font-weight-light orange--text mb-2">Embrace Friction</h3> -->
 
         </v-card-text>
     </v-card>
@@ -40,8 +40,19 @@
 </template>
 
 <script>
+import gql from 'graphql-tag'
 export default {
-  name: 'BlogHome'
+  name: 'BlogHome',
+  apollo: {
+    // Simple query that will update the 'hello' vue property
+    hello: gql`{
+      User(id: "wk0z1j1tzj7xc0116is3ckdrx") {
+
+    firstName
+
+  }
+    }`
+  }
 }
 </script>
 
