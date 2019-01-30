@@ -4,26 +4,30 @@
     <v-toolbar-title>Multisig Crypto</v-toolbar-title>
   </v-toolbar>
 
-  <v-layout>
-      <v-flex xs12 sm6 offset-sm3>
-        <v-card>
-          <v-img
-            class="white--text img"
-            height="200px"
-            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+  <v-hover>
+    <v-card
+      slot-scope="{ hover }"
+      class="mx-auto"
+      color="grey lighten-4"
+      max-width="600"
+    >
+      <v-img
+        :aspect-ratio="16/9"
+        src="https://cdn.vuetifyjs.com/images/cards/kitchen.png"
+      >
+        <v-expand-transition>
+          <div
+            v-if="hover"
+            class="d-flex transition-fast-in-fast-out orange darken-2 v-card--reveal display-3 white--text"
+            style="height: 100%;"
           >
-            <v-container fill-height fluid>
-              <v-layout fill-height>
-                <v-flex xs12 align-end flexbox>
-                  <span class="headline">Embrace Friction</span>
-                </v-flex>
-              </v-layout>
-            </v-container>
-          </v-img>
+            Embrace Friction
+          </div>
+        </v-expand-transition>
+      </v-img>
 
-        </v-card>
-      </v-flex>
-    </v-layout>
+    </v-card>
+  </v-hover>
   </div>
 </template>
 
@@ -34,5 +38,12 @@ export default {
 </script>
 
 <style scoped>
-
+.v-card--reveal {
+align-items: center;
+bottom: 0;
+justify-content: center;
+opacity: .5;
+position: absolute;
+width: 100%;
+}
 </style>
