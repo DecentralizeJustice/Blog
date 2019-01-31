@@ -17,9 +17,9 @@
         :aspect-ratio="16/9"
         :src= 'post.coverPhoto.url'
       >
-        <v-expand-transition>
+        <v-expand-transition v-if="post != undefined">
           <div
-            v-if="hover && post != undefined"
+            v-if="hover"
             class="d-flex transition-slow-in-fast-out orange darken-2 v-card--reveal display-3 white--text"
             style="height: 100%;"
           >
