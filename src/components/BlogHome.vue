@@ -1,5 +1,5 @@
 <template>
-  <v-app> 
+  <v-app>
   <div>
   <v-toolbar>
     <v-toolbar-title>Multisig Crypto</v-toolbar-title>
@@ -66,11 +66,11 @@ export default {
 
 <style scoped>
 >>>.v-card--reveal {
-align-items: center;
+align-items: center !important;
 bottom: 0;
-justify-content: center;
+justify-content: center !important;
 opacity: .9;
-position: absolute;
+position: absolute !important;
 width: 100%;
 }
 a {
