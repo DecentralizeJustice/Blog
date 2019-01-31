@@ -63,17 +63,13 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .v-card--reveal {
 align-items: center;
 bottom: 0;
 justify-content: center;
-opacity: .9;
+opacity: .5;
 position: absolute;
 width: 100%;
-}
-a {
-  color: none;
-  text-decoration: none; /* no underline */
 }
 </style>
