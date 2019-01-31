@@ -52,11 +52,17 @@
 </template>
 
 <script>
+import { VCard, VCardText, VCardMedia } from 'vuetify/lib'
 
 export default {
   name: 'BlogHome',
-
+  components: {
+    VCard,
+    VCardText,
+    VCardMedia
+  }
 }
+
 </script>
 
 <style scoped>
