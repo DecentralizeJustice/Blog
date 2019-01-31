@@ -64,8 +64,8 @@ export default {
 }
 </script>
 
-<style scoped>
->>>.v-card--reveal {
+<style >
+.v-card--reveal {
 align-items: center !important;
 bottom: 0;
 justify-content: center !important;
