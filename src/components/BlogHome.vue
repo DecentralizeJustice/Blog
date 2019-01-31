@@ -19,8 +19,9 @@
         <v-expand-transition>
           <div
             v-if="hover"
-            class="d-flex transition-slow-in-fast-out orange darken-2 v-card--reveal display-3 white--text"
+            class="d-flex transition-slow-in-fast-out orange darken-2 v- display-3 white--text"
             style="height: 100%;"
+            id="v-card--reveal"
           >
           {{ post.title }}
           </div>
@@ -63,7 +64,7 @@ export default {
 </script>
 
 <style>
-.v-card--reveal {
+#v-card--reveal {
 align-items: center;
 bottom: 0;
 justify-content: center;
