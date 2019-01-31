@@ -1,4 +1,4 @@
-# multisigblog
+# blog
 
 ## Project setup
 ```
