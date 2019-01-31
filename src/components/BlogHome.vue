@@ -13,8 +13,8 @@
     >
 
       <v-img
-        :aspect-ratio="2/3"
-        :src= 'post.coverPhoto.url'
+        :aspect-ratio="16/9"
+        :src= 'tests'
       >
         <v-expand-transition>
           <div
@@ -22,7 +22,7 @@
             class="d-flex transition-slow-in-fast-out orange darken-2  v-card--reveal display-3 white--text"
             style="height: 100%;"
           >
-          {{ post.title }}
+          Home
           </div>
         </v-expand-transition>
       </v-img>
@@ -31,7 +31,7 @@
           style="position: relative;"
         >
           <h3 class="display-1 font-weight-light orange--text mb-2" v-if="post == undefined">Test</h3>
-          <h3 class="display-1 font-weight-light orange--text mb-2" v-else>{{ post.title }}</h3>
+          <h3 class="display-1 font-weight-light orange--text mb-2" v-else>"Title"</h3>
         </v-card-text>
     </v-card>
   </v-hover>
@@ -57,7 +57,7 @@ export default {
   },
   data () {
     return {
-      tests: ''
+      tests: 'https://cdn.vuetifyjs.com/images/cards/kitchen.png'
     }
   }
 }
