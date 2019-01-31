@@ -62,7 +62,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .v-card--reveal {
 align-items: center;
 bottom: 0;
