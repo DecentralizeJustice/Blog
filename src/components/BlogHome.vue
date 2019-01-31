@@ -14,7 +14,7 @@
 
       <v-img
         v-if="post != undefined"
-        :aspect-ratio="16/9"
+        :aspect-ratio="2/3"
         :src= 'post.coverPhoto.url'
       >
         <v-expand-transition>
