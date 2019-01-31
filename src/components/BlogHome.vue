@@ -3,7 +3,7 @@
   <v-toolbar>
     <v-toolbar-title>Multisig Crypto</v-toolbar-title>
   </v-toolbar>
-  <a href="https://www.w3schools.com">
+  <!-- <a href="https://www.w3schools.com"> -->
   <v-hover>
     <v-card
       slot-scope="{ hover }"
@@ -23,7 +23,7 @@
             class="d-flex transition-slow-in-fast-out orange darken-2 v-card--reveal display-3 white--text"
             style="height: 100%;"
           >
-            <!-- <div>{{ hello }}</div> -->
+
           </div>
         </v-expand-transition>
       </v-img>
@@ -36,7 +36,7 @@
         </v-card-text>
     </v-card>
   </v-hover>
-  </a>
+  <!-- </a> -->
   </div>
 </template>
 
