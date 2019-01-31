@@ -13,7 +13,6 @@
     >
 
       <v-img
-        v-if="post != undefined"
         :aspect-ratio="2/3"
         :src= 'post.coverPhoto.url'
       >
