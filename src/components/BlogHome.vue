@@ -1,5 +1,4 @@
 <template>
-  <v-app>
   <div>
   <v-toolbar>
     <v-toolbar-title>Multisig Crypto</v-toolbar-title>
@@ -39,7 +38,7 @@
   </v-hover>
   <!-- </a> -->
   </div>
-  </v-app>
+
 </template>
 
 <script>
