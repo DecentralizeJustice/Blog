@@ -23,7 +23,7 @@
             class="d-flex transition-slow-in-fast-out orange darken-2 v-card--reveal display-3 white--text"
             style="height: 100%;"
           >
-          {{ post.title }}
+          "lets try"
           </div>
         </v-expand-transition>
       </v-img>
