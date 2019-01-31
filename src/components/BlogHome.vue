@@ -65,11 +65,11 @@ export default {
 
 <style scoped>
 .v-card--reveal {
-align-items: center !important;
+align-items: center ;
 bottom: 0;
-justify-content: center !important;
+justify-content: center;
 opacity: .9;
-position: absolute !important;
+position: absolute ;
 width: 100%;
 }
 a {
