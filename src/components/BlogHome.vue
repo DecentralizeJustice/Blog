@@ -19,7 +19,7 @@
         <v-expand-transition>
           <div
             v-if="hover"
-            class="d-flex transition-slow-in-fast-out orange darken-2  v-card--reveal display-3 white--text"
+            class="d-flex transition-slow-in-fast-out orange darken-2  v-card--reveal display-3 white--text justify-center"
             style="height: 100%;"
           >
           Home
