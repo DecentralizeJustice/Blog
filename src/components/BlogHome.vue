@@ -11,9 +11,11 @@
       color="grey lighten-4"
       max-width="600"
     >
+
       <v-img
+        v-if="post != undefined"
         :aspect-ratio="16/9"
-        :src= 'tests'
+        :src= 'post.coverPhoto.url'
       >
         <v-expand-transition>
           <div
@@ -29,9 +31,8 @@
           class="pt-4 hidden-md-and-up"
           style="position: relative;"
         >
-          <div>{{ post.title }}</div>
-          <!-- <h3 class="display-1 font-weight-light orange--text mb-2">Embrace Friction</h3> -->
-
+          <h3 class="display-1 font-weight-light orange--text mb-2" v-if="post == undefined">Test</h3>
+          <h3 class="display-1 font-weight-light orange--text mb-2" v-else>{{ post.title }}</h3>
         </v-card-text>
     </v-card>
   </v-hover>
@@ -56,7 +57,7 @@ export default {
   },
   data () {
     return {
-      tests: 'https://media.graphcms.com//qNK66222TUuUyW0reCmI'
+      tests: ''
     }
   }
 }
