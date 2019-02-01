@@ -3,6 +3,7 @@
     <v-toolbar>
       <v-toolbar-side-icon></v-toolbar-side-icon>
       <v-toolbar-title>Title</v-toolbar-title>
+      <v-spacer></v-spacer>
 
     </v-toolbar>
   <!-- <a href="https://www.w3schools.com"> -->
