@@ -2,17 +2,8 @@
   <v-app>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
+        <span>Multisig Crypto</span>
       </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
-      </v-btn>
     </v-toolbar>
     <v-content>
       <v-hover>
@@ -23,8 +14,8 @@
     max-width="600"
   >
     <v-img
-      :aspect-ratio="16/9"
-      src="https://cdn.vuetifyjs.com/images/cards/kitchen.png"
+      :aspect-ratio="1.6180/1"
+      src="https://images.pexels.com/photos/1430931/pexels-photo-1430931.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     >
       <v-expand-transition>
         <div
@@ -32,7 +23,7 @@
           class="d-flex transition-fast-in-fast-out orange darken-2 v-card--reveal display-3 white--text"
           style="height: 100%;"
         >
-          $14.99
+          1
         </div>
       </v-expand-transition>
     </v-img>
