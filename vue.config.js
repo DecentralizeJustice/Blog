@@ -2,4 +2,5 @@
 module.exports = {
   // options...
   //publicPath: '/blog/'
+  baseUrl: '/blog/'
 }
