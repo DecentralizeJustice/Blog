@@ -1,9 +1,9 @@
 <template>
   <div>
     <v-toolbar>
+      <v-spacer></v-spacer>
       <v-toolbar-title>Title</v-toolbar-title>
       <v-spacer></v-spacer>
-
     </v-toolbar>
   <!-- <a href="https://www.w3schools.com"> -->
   <v-hover>
@@ -15,7 +15,7 @@
        >
          <v-img
            :aspect-ratio="16/9"
-           src="https://cdn.vuetifyjs.com/images/cards/kitchen.png"
+           :src= 'post.coverPhoto.url'
          >
            <v-expand-transition>
              <div
@@ -56,9 +56,19 @@
 </template>
 
 <script>
-
+import gql from 'graphql-tag'
 export default {
   name: 'BlogHome',
+  apollo: {
+    post: gql`{
+      post(where: {id: "cjrg2t0z7b9u30a23puhi9gxk"}) {
+         coverPhoto {
+           url
+         }
+         title
+      }
+    }`
+  },
   data () {
     return {
       tests: ''
