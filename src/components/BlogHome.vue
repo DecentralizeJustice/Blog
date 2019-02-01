@@ -33,7 +33,7 @@
     >
 
       <div class="font-weight-light grey--text title mb-2">For the perfect meal</div>
-      <h3 class="display-1 font-weight-light orange--text mb-2">QW cooking utensils</h3>
+      <h3 class="display-1 font-weight-light orange--text mb-2">oking utensils</h3>
       <div class="font-weight-light title mb-2">
         ccccef.<br>
 
