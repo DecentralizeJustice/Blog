@@ -47,10 +47,9 @@
 
 <script>
 
-
-  export default {
-    name: 'BlogHome',
-  }
+export default {
+  name: 'BlogHome'
+}
 </script>
 <style>
 .v-card--reveal {
