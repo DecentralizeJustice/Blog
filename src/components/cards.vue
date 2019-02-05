@@ -3,20 +3,20 @@
   <!-- <a href="https://www.w3schools.com"> -->
 
   <v-layout align-start row fill-height v-if="posts != undefined">
-    <v-flex v-for="post in posts" :key="post.id" xs4>
+    <v-flex v-for="post in posts" :key="post.id" xs3 offset-xs1 class="mt-5">
       <v-hover>
            <v-card
              slot-scope="{ hover }"
              class="mx-auto"
            >
            <v-img
-             :aspect-ratio="1/1.5"
+             :aspect-ratio="9/16"
              :src= 'post.coverPhoto.url'
            >
              <v-expand-transition >
                <div
                  v-if="hover"
-                 class="d-flex transition-fast-in-fast-out orange darken-2 v-card--reveal display-3 white--text hidden-sm-and-down"
+                 class="d-flex transition-fast-in-fast-out orange darken-2 v-card--reveal display-3 white--text hidden-sm-and-down text-xs-center"
                  style="height: 100%;"
                >
                 {{ post.title }}

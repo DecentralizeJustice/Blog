@@ -2,7 +2,6 @@
   <div>
     <v-toolbar>
       <v-toolbar-title>Multisig Crypto</v-toolbar-title>
-      <v-spacer></v-spacer>
     </v-toolbar>
     <cards/>
   </div>
