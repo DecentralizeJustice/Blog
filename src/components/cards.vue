@@ -3,7 +3,7 @@
   <!-- <a href="https://www.w3schools.com"> -->
 
   <v-layout align-start row fill-height v-if="posts != undefined">
-    <v-flex v-for="post in posts" :key="post.id" xs3 offset-xs1 class="mt-5">
+    <v-flex v-for="post in posts" :key="post.id" xs3 offset-xs1 class="mt-5 pt-1">
       <v-hover>
            <v-card
              slot-scope="{ hover }"
