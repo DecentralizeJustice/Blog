@@ -12,7 +12,8 @@ export default new Router({
       path: '/',
       component: Home
     },
-    { path: '/embraceFriction', component: () => import(/* webpackChunkName: "about" */ './components/embraceFriction/main.vue') }
+    { path: '/embraceFriction',
+      component: () => import('./components/embraceFriction/main.vue') }
 
   ]
 })
