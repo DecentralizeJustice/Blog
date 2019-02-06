@@ -1,8 +1,7 @@
 <template>
 
-  <v-layout align-start row fill-height v-if="posts != undefined">
-    <v-flex v-for="post in posts" :key="post.id"
-      md3 offset-md1 class="mt-5 pt-1">
+  <v-layout align-start row wrap v-if="posts != undefined">
+    <v-flex v-for="post in posts" :key="post.id" md3 class="mt-5 pt-1 cardSpace">
       <a href="https://www.google.com">
       <v-hover>
            <v-card
@@ -73,5 +72,8 @@ width: 100%;
 a {
   color: none;
   text-decoration: none; /* no underline */
+}
+.cardSpace {
+  margin-left: 6.4%;
 }
 </style>
