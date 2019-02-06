@@ -47,7 +47,7 @@ export default {
   name: 'cards',
   apollo: {
     posts: gql`{
-      posts{
+      posts(orderBy: createdAt_DESC){
         coverPhoto {url}
         title
       }
