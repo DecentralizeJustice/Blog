@@ -2,7 +2,7 @@
 
   <v-layout align-start row wrap v-if="posts != undefined">
     <v-flex v-for="post in posts" :key="post.id" md3 class="mt-5 pt-1 cardSpace">
-      <a href="https://www.google.com">
+      <router-link :to=post.routerlink>
       <v-hover>
            <v-card
              slot-scope="{ hover }"
@@ -34,7 +34,7 @@
           </v-card-text>
            </v-card>
          </v-hover>
-         </a>
+         </router-link>
     </v-flex>
   </v-layout>
 
@@ -48,7 +48,8 @@ export default {
     posts: gql`{
       posts(orderBy: createdAt_DESC){
         coverPhoto {url}
-        title
+        title,
+        routerlink
       }
     }`
   },
