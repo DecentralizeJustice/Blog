@@ -1,7 +1,24 @@
 <template>
-  <div id="about">
-  When you have a great story about how your product or service was built to change lives, share it. The "About Us" page is a great place for it to live, too. Good stories humanize your brand, providing context and meaning for your product. What’s more, good stories are sticky -- which means people are more likely to connect with them and pass them on.
+  <div>
+  <section class="intro">
+
+<v-layout align-start row wrap >
+       <v-flex class="title" xs5 offset-xs1 pa-4>
+       <div class="display-4 white--text font-weight-medium" >
+         Embrace Friction
+       </div>
+       <br>
+       <div class="white--text display-1 font-weight-light">
+         Cryptocurrency is hard. Embrace it responsibly.
+       </div>
+     </v-flex>
+</v-layout>
+
+  </section>
+  <div>
+
   </div>
+</div>
 </template>
 
 <script>
@@ -10,13 +27,19 @@ export default {
 }
 </script>
 <!-- styling for the component -->
-<style>
-#about {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+.title{
+  position: absolute;
+  top: 20vh;
+  background-color: rgb(189, 189, 189,.9);
 }
+.intro {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://images.pexels.com/photos/1600757/pexels-photo-1600757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+
 </style>
