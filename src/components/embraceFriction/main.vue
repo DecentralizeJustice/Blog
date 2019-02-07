@@ -32,6 +32,7 @@ export default {
   position: absolute;
   top: 20vh;
   background-color: rgb(29, 66, 76,.9);
+  border-radius: 3%;
 }
 .intro {
   height: 100vh;
