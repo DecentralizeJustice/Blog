@@ -2,20 +2,27 @@
   <div>
   <section class="intro">
 
-<v-layout align-start row wrap >
-       <v-flex class="title" xs5 offset-xs1 pa-4>
-       <div class="display-4 white--text font-weight-medium" >
-         Embrace Friction
-       </div>
-       <br>
-       <div class="white--text display-1 font-weight-light">
-         Cryptocurrency is hard. Embrace it responsibly.
-       </div>
-     </v-flex>
-</v-layout>
+    <v-layout align-start row wrap >
+           <v-flex class="title" xs5 offset-xs1 pa-4>
+           <div class="display-4 white--text font-weight-medium" >
+             Embrace Friction
+           </div>
+           <br>
+           <div class="white--text display-1 font-weight-light">
+             Cryptocurrency is hard. Embrace it responsibly.
+           </div>
 
+         </v-flex>
+
+    </v-layout>
+    <div class="container">
+      <div class="chevron"></div>
+      <div class="chevron"></div>
+      <div class="chevron"></div>
+    </div>
   </section>
-  <div>
+
+  <div style="background-color: rgb(29, 66, 76);height: 100vh;">
 
   </div>
 </div>
@@ -30,7 +37,7 @@ export default {
 <style scoped>
 .title{
   position: absolute;
-  top: 20vh;
+  top: 15vh;
   background-color: rgb(29, 66, 76,.9);
   border-radius: 3%;
 }
@@ -42,5 +49,85 @@ export default {
   background-size: cover;
   background-image: url('https://images.pexels.com/photos/1600757/pexels-photo-1600757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }
+.container {
+  position: absolute;
+  top: 85vh;
+  left:50%;
+}
 
+.chevron {
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #fff;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.text {
+  display: block;
+  margin-top: 75px;
+  margin-left: -30px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}
 </style>
