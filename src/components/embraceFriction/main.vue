@@ -52,7 +52,7 @@ export default {
 .container {
   position: absolute;
   top: 85vh;
-  left:50%;
+  left:48%;
 }
 
 .chevron {
