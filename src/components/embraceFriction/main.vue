@@ -31,7 +31,7 @@ export default {
 .title{
   position: absolute;
   top: 20vh;
-  background-color: rgb(189, 189, 189,.9);
+  background-color: rgb(29, 66, 76,.9);
 }
 .intro {
   height: 100vh;
