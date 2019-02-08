@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-toolbar>
-      <v-toolbar-title>Crypto For the People</v-toolbar-title>
+      <v-toolbar-title>Multisig Crypto</v-toolbar-title>
     </v-toolbar>
     <cards/>
   </div>
