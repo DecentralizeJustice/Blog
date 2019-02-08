@@ -5,11 +5,11 @@
     <v-layout align-start row wrap >
            <v-flex class="title" xs5 offset-xs1 pa-4>
            <div class="display-4 white--text font-weight-medium" >
-             Embrace Friction
+             Embrace Difference
            </div>
            <br>
            <div class="white--text display-1 font-weight-light">
-             Cryptocurrency is hard. Embrace it responsibly.
+             Cryptocurrency is strange and unfamiliar. It should be.
            </div>
 
          </v-flex>
@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: 'embraceFriction'
+  name: 'embraceDifference'
 }
 </script>
 <!-- styling for the component -->

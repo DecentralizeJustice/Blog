@@ -12,8 +12,8 @@ export default new Router({
       path: '/',
       component: Home
     },
-    { path: '/embraceFriction',
-      component: () => import('./components/embraceFriction/main.vue') }
+    { path: '/embraceDifference',
+      component: () => import('./components/embraceDifference/main.vue') }
 
   ]
 })
