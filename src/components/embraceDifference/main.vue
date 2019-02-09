@@ -9,7 +9,7 @@
            </div>
            <br>
            <div class="white--text display-1 font-weight-light">
-             Cryptocurrency is strange and unfamiliar. It should be.
+             Cryptocurrency is strange and unfamiliar. Thats means your doing it right.
            </div>
 
          </v-flex>
