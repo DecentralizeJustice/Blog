@@ -15,16 +15,25 @@
          </v-flex>
 
     </v-layout>
-    <div class="container">
-      <div class="chevron"></div>
-      <div class="chevron"></div>
-      <div class="chevron"></div>
-    </div>
+
   </section>
 
-  <div style="background-color: rgb(29, 66, 76);height: 100vh;">
+  <section style="background-color: rgb(29, 66, 76);height: 100vh;">
 
-  </div>
+    <img
+    src="https://media.giphy.com/media/3oEhn98ueBrGZQJTJ6/giphy.gif"
+    alt="Scary Driver" style="position: relative;top: 15vh; border-style: solid;
+  border-width: medium;">
+  <p style="position: static;top: 15vh; border-style: solid;
+border-width: medium;">
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser
+ignores it.
+</p>
+
+  </section>
 </div>
 </template>
 
@@ -54,7 +63,6 @@ export default {
   top: 85vh;
   left:48%;
 }
-
 .chevron {
   position: absolute;
   width: 28px;
@@ -63,15 +71,12 @@ export default {
   transform: scale3d(0.5, 0.5, 0.5);
   animation: move 3s ease-out infinite;
 }
-
 .chevron:first-child {
   animation: move 3s ease-out 1s infinite;
 }
-
 .chevron:nth-child(2) {
   animation: move 3s ease-out 2s infinite;
 }
-
 .chevron:before,
 .chevron:after {
   content: ' ';
@@ -81,18 +86,15 @@ export default {
   width: 51%;
   background: #fff;
 }
-
 .chevron:before {
   left: 0;
   transform: skew(0deg, 30deg);
 }
-
 .chevron:after {
   right: 0;
   width: 50%;
   transform: skew(0deg, -30deg);
 }
-
 @keyframes move {
   25% {
     opacity: 1;
@@ -111,7 +113,6 @@ export default {
     transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
   }
 }
-
 @keyframes pulse {
   to {
     opacity: 1;
