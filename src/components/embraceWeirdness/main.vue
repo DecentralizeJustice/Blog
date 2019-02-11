@@ -16,7 +16,7 @@
     <img
     src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
     alt="Scary Driver"
-    class="bounce" style="width:11vh;height:auto;left:49vw;height:auto;">
+    class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
   </section>
 
   <section style="background-color: rgb(29, 66, 76);height: 75vh;position: relative;">
@@ -25,56 +25,42 @@
       Would you take a ride from a driver who learned how to drive from studying and riding bicycles?
     </p>
     <img
+    data-aos="fade-up"
     src="https://media.giphy.com/media/3oEhn98ueBrGZQJTJ6/giphy.gif"
     alt="Scary Driver" style="top:10vh;position:relative;left:52%;height:auto;width:40vw;">
   </section>
 
-  <section style="background-color: #486E70;height: 100vh;position: relative;">
+  <section style="background-color: #486E70;height: 89vh;position: relative;padding-top:5vh;">
 
-    <p style="width:61.2vw;padding-top:5vh;padding-left:5vw;">
-    <span class="firstcharacter">No!</span>
-    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
-    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
-    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
-    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
-    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
-    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
-    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
-    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
-    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
-    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
-    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
-    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
-    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
-    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
-    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
-    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
-    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
-    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
-    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
-    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
-    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
-    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
-    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
-    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
-    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
-    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
-    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
-    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
-    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
-    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
-    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
-    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
-    </p>
+    <div style="width:50vw;margin-left:5vw;font-size:20px;line-height: 27px;background-color:white;
+    border-style:solid;border-color: rgb(29, 66, 76);border-width: 1vh;padding:2vw" class="subheading">
+    <p><span class="firstcharacter">No!</span>
+    would have hopefully been your answer. You would say no because your driver
+    made a connection based on similarities that don’t really matter. In this example it is clear and comical that this person does
+    not understand how to drive well. Cars and bikes share some similarities, but cars were an innovative technology compared to bikes,
+    so drawing similarities between the two technologies isn’t really useful, and can be dangerous.</p>
+
+    <p>When I first started learning about cryptocurrencies I wanted to understand everything about them. I wanted to know what types they were,
+     how they worked, how I could get involved, and most importantly, what they would look like in the future. In order to learn about the
+     future of  cryptocurrencies, I decided to look to the past for guidance and since the internet and cryptocurrencies seemed similar I decided
+      to study the history of the internet in order to learn more about how cryptocurrencies might grow and evolve in the future. At the time
+      this made perfect sense to me, since were taught that history is a great tool for learning about the future. This didn’t really help me
+      learn anything about cryptocurrencies(although it is a great thing to know about). That was years ago, and I know why my plan to predict the
+      future of crypto didn't work; Drawing similarities between innovative technologies doesn't  work because of the nature of innovation.</p>
+
+     Hubris combined with focusing on how two technologies are similar can cost you to get into an accident, such as the case with a car vs
+      a bicycle  or to miss out on some beautiful and life changing opportunities because technology is weird and unpredictable.
+
+    </div>
     <img     data-aos="fade-left"
     src="https://images.pexels.com/photos/1467564/pexels-photo-1467564.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     alt="Studying"
-    style="top:5vh;position:absolute;right:5vw;height:auto;width:28vw;"
+    style="top:5vh;position:absolute;right:8vw;height:auto;width:28vw;"
     >
     <img     data-aos="fade-left"
     src="https://images.pexels.com/photos/545062/pexels-photo-545062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     alt="Studying 2"
-    style="top:45vh;position:absolute;right:5vw;height:auto;width:28vw;"
+    style="top:45vh;position:absolute;right:8vw;height:auto;width:28vw;"
     >
   </section>
 
