@@ -70,7 +70,7 @@
     <p style="position:relative;top: 8vh;width:85vw;color: white;text-align:left;left:8%;"
        class="font-weight-black display-2" >
       If what I say now seems to be very reasonable, then I will have failed completely.
-       Only if what I tell appears absolutely unreasonable have we any chance of visualizing
+       Only if what I tell you appears absolutely unreasonable have we any chance of visualizing
        the future as it really will happen. <br>  - Arthur C. Clarke
     </p>
     <img data-aos="fade-left"
@@ -110,7 +110,7 @@
     style="top:2vh;position:absolute;left:4vw;height:auto;width:23vw;"
     >
     <img     data-aos="fade-right"
-    src="https://imgix.ranker.com/user_node_img/50040/1000793310/original/young-madonna-in-see-through-black-mesh-photo-u1?w=650&q=50&fm=pjpg&fit=crop&crop=faces"
+    src="https://i.dailymail.co.uk/i/pix/2013/10/06/article-0-188BC8F300000578-573_634x761.jpg"
     alt="Studying 2"
     style="bottom:2vh;position:absolute;left:18vw;height:auto;width:23vw;"
     >
