@@ -25,15 +25,64 @@
     alt="Scary Driver" style="top:10vh;position:relative;left:52%;height:auto;width:40vw;">
   </section>
 
-  <section style="background-color: #315557;height: 100vh;position: relative;">
+  <section style="background-color: #486E70;height: 100vh;position: relative;">
 
-    <p style="width:61.2vw;">
+    <p style="width:61.2vw;padding-top:5vh;padding-left:5vw;">
     <span class="firstcharacter">No!</span>
     orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
     eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
     sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
     tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
+    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
+    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
+    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
+    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
+    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
+    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
+    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
+    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
+    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
+    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
+    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
+    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
+    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
+    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
+    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
+    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
+    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
+    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
+    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
+    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
+    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
+    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
+    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
+    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
+    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
+    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
+    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
+    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
     </p>
+    <img src="https://images.pexels.com/photos/1467564/pexels-photo-1467564.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    alt="Studying"
+    style="top:5vh;position:absolute;right:5vw;height:auto;width:28vw;"
+    >
+    <img src="https://images.pexels.com/photos/545062/pexels-photo-545062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    alt="Studying 2"
+    style="top:45vh;position:absolute;right:5vw;height:auto;width:28vw;"
+    >
+  </section>
+
+  <section style="background-color: rgb(29, 66, 76);height: 100vh;position: relative;">
+    <p style="position:relative;top: 8vh;width:75vw;color: white;text-align:left;left:8%;"
+       class="font-weight-black display-2" >
+      "If what I say now seems to be very reasonable, then I will have failed completely.
+       Only if what I tell appears absolutely unreasonable have we any chance of visualizing
+       the future as it really will happen." <br> - Arthur C. Clarke
+    </p>
+    <img
+    src="https://i.gifer.com/D2qg.gif"
+    alt="2001: A Space Odyssey" style="top:5vh;position:relative;left:40vw;
+    height:auto;width:50vw;  border-style: solid;border-color: #486E70;border-width: 1vh;">
   </section>
 </div>
 </template>
