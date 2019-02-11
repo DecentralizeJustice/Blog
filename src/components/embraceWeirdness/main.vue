@@ -55,12 +55,12 @@
 
     </div>
     <img     data-aos="fade-left"
-    src="https://images.pexels.com/photos/1467564/pexels-photo-1467564.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    src="https://images.pexels.com/photos/545062/pexels-photo-545062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     alt="Studying"
     style="top:7vh;position:absolute;right:8vw;height:auto;width:28vw;"
     >
     <img     data-aos="fade-left"
-    src="https://images.pexels.com/photos/545062/pexels-photo-545062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    src="http://www.mypressplus.com/wp-content/uploads/2018/02/history.jpg"
     alt="Studying 2"
     style="top:47vh;position:absolute;right:8vw;height:auto;width:28vw;"
     >
