@@ -18,26 +18,28 @@
 
   </section>
 
-  <section style="background-color: rgb(29, 66, 76);height: 100vh;position: relative;">
+  <section style="background-color: rgb(29, 66, 76);height: 75vh;position: relative;">
+
+    <p style="position:relative;top: 8vh;width:61.8%;color: white;text-align: left;left:8%;"
+       class="font-weight-black display-3" >
+      Would you take a ride from a driver who learned how to drive from studying and riding bicycles?
+    </p>
 
     <img
     src="https://media.giphy.com/media/3oEhn98ueBrGZQJTJ6/giphy.gif"
-    alt="Scary Driver" style="top: 15vh; border-style: solid;
-  border-width: medium;">
-  <p style="position: relative;top: 0vh; border-style: solid;
-border-width: medium;width:62.5%;" >
-Imagine if you were in a uber, and you heard your driver say “Yeah of course I know how to drive,
- it’s just like riding a bike”.
+    alt="Scary Driver" style="top:10vh;position:relative;left:30vw;height:auto;width:40vw;">
 
-</p>
+  <!-- <p style="position: relative;top: 0vh; border-style: solid;
+   border-width: medium;width:62.5%;" class="font-weight-regular title" >
+    Would you leave the driver 5 stars or hop out at the next stop light?
+    Hopefully you would hop out because your driver made a connection based on similarities that don’t really matter.
+     In this example it is clear and comical that this person does not understand how to drive well.
+     Cars and bikes share some similarities, but cars were an innovative technology compared to bikes,
+      so drawing similarities between the two technologies isn’t really useful, and can be dangerous.
+  </p> -->
 
-  <p style="position: relative;top: 0vh; border-style: solid;
-border-width: medium;width:62.5%;" >
-Would you leave the driver 5 stars or hop out of the car at the next stop light?
-Hopefully you would hop out because your driver made a connection based on similarities that don’t really matter.
- In this example it is clear and comical that this person does not understand how to drive well. Cars and bikes share some similarities, but cars were an innovative technology compared to bikes,
-  so drawing similarities between the two technologies isn’t really useful, and can be dangerous.
-</p>
+  </section>
+  <section style="background-color: #103436;height: 100vh;position: relative;">
 
   </section>
 </div>
@@ -68,9 +70,6 @@ export default {
   position: absolute;
   top: 85vh;
   left:48%;
-}
-p {
-  background-color: white;
 }
 .chevron {
   position: absolute;
