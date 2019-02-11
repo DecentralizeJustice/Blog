@@ -75,9 +75,9 @@
   <section style="background-color: rgb(29, 66, 76);height: 95vh;position: relative;">
     <p style="position:relative;top: 8vh;width:85vw;color: white;text-align:left;left:8%;"
        class="font-weight-black display-2" >
-      "If what I say now seems to be very reasonable, then I will have failed completely.
+      If what I say now seems to be very reasonable, then I will have failed completely.
        Only if what I tell appears absolutely unreasonable have we any chance of visualizing
-       the future as it really will happen." <br>  - Arthur C. Clarke
+       the future as it really will happen. <br>  - Arthur C. Clarke
     </p>
     <img
     src="https://i.gifer.com/D2qg.gif"
@@ -119,12 +119,12 @@ export default {
   background-image: url('https://images.pexels.com/photos/1600757/pexels-photo-1600757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }
 .container {
-  position: absolute;
+  position: relative;
   top: 85vh;
   left:48%;
 }
 .chevron {
-  position: absolute;
+  position: relative;
   width: 28px;
   height: 8px;
   opacity: 0;
@@ -140,7 +140,7 @@ export default {
 .chevron:before,
 .chevron:after {
   content: ' ';
-  position: absolute;
+  position: relative;
   top: 0;
   height: 100%;
   width: 51%;
