@@ -1,6 +1,6 @@
 <template>
   <div>
-  <section class="intro">
+  <section class="intro" style="position: relative;">
 
     <v-layout align-start row wrap >
            <v-flex class="title" xs5 offset-xs1 pa-4>
@@ -18,19 +18,25 @@
 
   </section>
 
-  <section style="background-color: rgb(29, 66, 76);height: 100vh;">
+  <section style="background-color: rgb(29, 66, 76);height: 100vh;position: relative;">
 
     <img
     src="https://media.giphy.com/media/3oEhn98ueBrGZQJTJ6/giphy.gif"
-    alt="Scary Driver" style="position: relative;top: 15vh; border-style: solid;
+    alt="Scary Driver" style="top: 15vh; border-style: solid;
   border-width: medium;">
-  <p style="position: static;top: 15vh; border-style: solid;
-border-width: medium;">
-This paragraph
-contains a lot of lines
-in the source code,
-but the browser
-ignores it.
+  <p style="position: relative;top: 0vh; border-style: solid;
+border-width: medium;width:62.5%;" >
+Imagine if you were in a uber, and you heard your driver say “Yeah of course I know how to drive,
+ it’s just like riding a bike”.
+
+</p>
+
+  <p style="position: relative;top: 0vh; border-style: solid;
+border-width: medium;width:62.5%;" >
+Would you leave the driver 5 stars or hop out of the car at the next stop light?
+Hopefully you would hop out because your driver made a connection based on similarities that don’t really matter.
+ In this example it is clear and comical that this person does not understand how to drive well. Cars and bikes share some similarities, but cars were an innovative technology compared to bikes,
+  so drawing similarities between the two technologies isn’t really useful, and can be dangerous.
 </p>
 
   </section>
@@ -62,6 +68,9 @@ export default {
   position: absolute;
   top: 85vh;
   left:48%;
+}
+p {
+  background-color: white;
 }
 .chevron {
   position: absolute;
