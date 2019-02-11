@@ -137,7 +137,8 @@
     <img     data-aos="fade-up"
     src="https://media1.tenor.com/images/a1c02bab6e0b391daf7f5efc000725ff/tenor.gif?itemid=9154819"
     alt="Studying 2"
-    style="top:53vh;position:absolute;left:50vw;height:auto;width:45vw;"
+    style="top:53vh;position:absolute;left:50vw;height:auto;width:45vw;
+      border-style:solid;border-color: #486E70;border-width: 1vh;"
     >
   </section>
 </div>
