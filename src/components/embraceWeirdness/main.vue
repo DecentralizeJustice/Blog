@@ -72,12 +72,12 @@
     >
   </section>
 
-  <section style="background-color: rgb(29, 66, 76);height: 100vh;position: relative;">
-    <p style="position:relative;top: 8vh;width:75vw;color: white;text-align:left;left:8%;"
+  <section style="background-color: rgb(29, 66, 76);height: 95vh;position: relative;">
+    <p style="position:relative;top: 8vh;width:85vw;color: white;text-align:left;left:8%;"
        class="font-weight-black display-2" >
       "If what I say now seems to be very reasonable, then I will have failed completely.
        Only if what I tell appears absolutely unreasonable have we any chance of visualizing
-       the future as it really will happen." <br> - Arthur C. Clarke
+       the future as it really will happen." <br>  - Arthur C. Clarke
     </p>
     <img
     src="https://i.gifer.com/D2qg.gif"
