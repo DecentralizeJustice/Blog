@@ -9,38 +9,31 @@
            </div>
            <br>
            <div class="white--text display-1 font-weight-light">
-             Cryptocurrency is weird. It should be.
+             Cryptocurrency feels weird. It should.
            </div>
-
          </v-flex>
-
     </v-layout>
-
   </section>
 
   <section style="background-color: rgb(29, 66, 76);height: 75vh;position: relative;">
-
-    <p style="position:relative;top: 8vh;width:61.8%;color: white;text-align: left;left:8%;"
+    <p style="position:relative;top: 8vh;width:61.8%;color: white;text-align:left;left:8%;"
        class="font-weight-black display-3" >
       Would you take a ride from a driver who learned how to drive from studying and riding bicycles?
     </p>
-
     <img
     src="https://media.giphy.com/media/3oEhn98ueBrGZQJTJ6/giphy.gif"
-    alt="Scary Driver" style="top:10vh;position:relative;left:30vw;height:auto;width:40vw;">
-
-  <!-- <p style="position: relative;top: 0vh; border-style: solid;
-   border-width: medium;width:62.5%;" class="font-weight-regular title" >
-    Would you leave the driver 5 stars or hop out at the next stop light?
-    Hopefully you would hop out because your driver made a connection based on similarities that don’t really matter.
-     In this example it is clear and comical that this person does not understand how to drive well.
-     Cars and bikes share some similarities, but cars were an innovative technology compared to bikes,
-      so drawing similarities between the two technologies isn’t really useful, and can be dangerous.
-  </p> -->
-
+    alt="Scary Driver" style="top:10vh;position:relative;left:52%;height:auto;width:40vw;">
   </section>
-  <section style="background-color: #103436;height: 100vh;position: relative;">
 
+  <section style="background-color: #315557;height: 100vh;position: relative;">
+
+    <p style="width:61.2vw;">
+    <span class="firstcharacter">No!</span>
+    orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus
+    eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie
+    sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
+    tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
+    </p>
   </section>
 </div>
 </template>
@@ -52,6 +45,16 @@ export default {
 </script>
 <!-- styling for the component -->
 <style scoped>
+.firstcharacter {
+
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
 .title{
   position: absolute;
   top: 15vh;
