@@ -13,6 +13,10 @@
            </div>
          </v-flex>
     </v-layout>
+    <img
+    src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
+    alt="Scary Driver"
+    class="bounce" style="width:11vh;height:auto;left:49vw">
   </section>
 
   <section style="background-color: rgb(29, 66, 76);height: 75vh;position: relative;">
@@ -95,7 +99,6 @@ export default {
 <!-- styling for the component -->
 <style scoped>
 .firstcharacter {
-
   float: left;
   font-family: Georgia;
   font-size: 75px;
@@ -105,7 +108,7 @@ export default {
   padding-left: 3px;
 }
 .title{
-  position: absolute;
+  position: relative;
   top: 15vh;
   background-color: rgb(29, 66, 76,.9);
   border-radius: 3%;
@@ -118,64 +121,43 @@ export default {
   background-size: cover;
   background-image: url('https://images.pexels.com/photos/1600757/pexels-photo-1600757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }
-.container {
-  position: relative;
-  top: 85vh;
-  left:48%;
-}
-.chevron {
-  position: relative;
-  width: 28px;
-  height: 8px;
-  opacity: 0;
-  transform: scale3d(0.5, 0.5, 0.5);
-  animation: move 3s ease-out infinite;
-}
-.chevron:first-child {
-  animation: move 3s ease-out 1s infinite;
-}
-.chevron:nth-child(2) {
-  animation: move 3s ease-out 2s infinite;
-}
-.chevron:before,
-.chevron:after {
-  content: ' ';
-  position: relative;
-  top: 0;
-  height: 100%;
-  width: 51%;
-  background: #fff;
-}
-.chevron:before {
-  left: 0;
-  transform: skew(0deg, 30deg);
-}
-.chevron:after {
-  right: 0;
-  width: 50%;
-  transform: skew(0deg, -30deg);
-}
-@keyframes move {
-  25% {
-    opacity: 1;
+.bounce {
+   position:absolute;
+   left:50%;
+   bottom:0;
+   margin-top:-25px;
+   margin-left:-25px;
+   height:50px;
+   width:50px;
+   -webkit-animation:bounce 1s infinite;
+   -moz-animation:bounce 1s infinite;
+   -o-animation:bounce 1s infinite;
+   animation:bounce 1s infinite;
 
-  }
-  33% {
-    opacity: 1;
-    transform: translateY(30px);
-  }
-  67% {
-    opacity: 1;
-    transform: translateY(40px);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
-  }
-}
-@keyframes pulse {
-  to {
-    opacity: 1;
-  }
-}
+ }
+
+ @-webkit-keyframes bounce {
+   0%       { bottom:0px; }
+   50%      { bottom:15px; }
+   100%     {bottom:30;}
+ }
+
+  @-moz-keyframes bounce {
+   0%       { bottom:0px; }
+   50%      { bottom:15px; }
+   100%     {bottom:30;}
+ }
+
+  @-o-keyframes bounce {
+   0%       { bottom:0px; }
+   50%      { bottom:15px; }
+   100%     {bottom:30;}
+ }
+
+  @keyframes bounce {
+   0%       { bottom:0px; }
+   50%      { bottom:15px; }
+   100%     {bottom:30;}
+ }
+
 </style>
