@@ -30,9 +30,11 @@
     alt="Scary Driver" style="top:10vh;position:relative;left:52%;height:auto;width:40vw;">
   </section>
 
-  <section style="background-color: #486E70;height: 89vh;position: relative;padding-top:5vh;">
+  <section
+   style="background-color: #486E70;height: 89vh;position: relative;padding-top:5vh;">
 
-    <div style="width:50vw;margin-left:5vw;font-size:20px;line-height: 27px;background-color:white;
+    <div
+    style="width:50vw;margin-left:5vw;font-size:20px;line-height: 27px;background-color:white;
     border-style:solid;border-color: rgb(29, 66, 76);border-width: 1vh;padding:2vw" class="subheading">
     <p><span class="firstcharacter">No!</span>
     would have hopefully been your answer. You would say no because your driver
@@ -55,12 +57,12 @@
     <img     data-aos="fade-left"
     src="https://images.pexels.com/photos/1467564/pexels-photo-1467564.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     alt="Studying"
-    style="top:5vh;position:absolute;right:8vw;height:auto;width:28vw;"
+    style="top:7vh;position:absolute;right:8vw;height:auto;width:28vw;"
     >
     <img     data-aos="fade-left"
     src="https://images.pexels.com/photos/545062/pexels-photo-545062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     alt="Studying 2"
-    style="top:45vh;position:absolute;right:8vw;height:auto;width:28vw;"
+    style="top:47vh;position:absolute;right:8vw;height:auto;width:28vw;"
     >
   </section>
 
@@ -71,10 +73,72 @@
        Only if what I tell appears absolutely unreasonable have we any chance of visualizing
        the future as it really will happen. <br>  - Arthur C. Clarke
     </p>
-    <img
+    <img data-aos="fade-left"
     src="https://i.gifer.com/D2qg.gif"
     alt="2001: A Space Odyssey" style="top:5vh;position:relative;left:40vw;
     height:auto;width:50vw;  border-style: solid;border-color: #486E70;border-width: 1vh;">
+  </section>
+
+  <section
+   style="background-color: #486E70;height: 89vh;position: relative;padding-top:5vh;">
+
+    <div
+    style="position:absolute;width:50vw;left:44vw;font-size:20px;line-height: 27px;background-color:white;
+    border-style:solid;border-color: rgb(29, 66, 76);border-width:1vh;padding:2vw" class="subheading">
+    <p>
+      Innovative technology is weird because humans are weird. There is no way to predict the path that these technologies
+     might take. Arthur C. Clarke was a futurist known for co-writing the screenplay for 2001: A Space Odyssey .
+     They firmly believed that the future would be an absurd place to people living in the past. For example, If i tried
+      to convince a person from 2000 that the reality tv star Donal Trump would become president and use the internet as
+      a platform to argue with Snoop Dog, the gangster rapper, and Madonna , the pop star, then they would most likely
+      laugh in my face. In fact the Simpsons actually made an episode where trump was president, as a joke. People are
+      weird and technology is weird. This weirdness means that the future is almost impossible to predict. We can't
+      simply draw from past technologies to learn about the future. If we try and do this we will limit ourselves and
+       instead we should embrace this weirdness and unfamiliarity. </p>
+
+      It should be clear by now to you that comparing innovative technologies isn’t the best thing to do, but people
+      do this all the time with cryptocurrencies.
+      We have all seen articles stating that compare bitcoin and cash. These articles usually compare things like
+      security or transaction speed and volume and come to the conclusion that cryptocurrencies will never be that big because
+      they don’t really compare to the current money that we have now. These people tend to make the mistake of comparing innovative technologies
+      to past technologies. Instead of focusing on how cash is similar to bitcoin, it would be more enriching to focus on how they are different.
+
+    </div>
+    <img     data-aos="fade-right"
+    src="https://data.whicdn.com/images/310017963/large.jpg"
+    alt="Studying"
+    style="top:2vh;position:absolute;left:4vw;height:auto;width:23vw;"
+    >
+    <img     data-aos="fade-right"
+    src="https://imgix.ranker.com/user_node_img/50040/1000793310/original/young-madonna-in-see-through-black-mesh-photo-u1?w=650&q=50&fm=pjpg&fit=crop&crop=faces"
+    alt="Studying 2"
+    style="bottom:2vh;position:absolute;left:18vw;height:auto;width:23vw;"
+    >
+  </section>
+
+  <section
+   style="background-color: rgb(29, 66, 76);height: 89vh;position: relative;padding-top:5vh;">
+
+    <div
+    style="width:50vw;position:absolute;left:5vw;font-size:20px;line-height: 27px;background-color:white;
+    border-style:solid;border-color: #486E70;border-width: 1vh;padding:2vw" class="subheading">
+    <p>We should focus on how weird bitcoin and ethereum is compared to old technologies and how it will be different in the future compared to historical technologies.
+    We should embrace this weirdness and allow it to expand our understanding of the future and ourselves, instead of trying to fit cryptocurrencies into our current
+    understanding of the world, which are  often based upon the past.</p>
+
+    I want us to have more weird conversations, less conversations focusing on the mundane and archaic. There are a million articles about how cryptocurrencies will
+    change the fin tech industries, but very few on how dao’s will change what it means to be human or how a microtransaction based economy could be a more equitable
+     one. These types of conversations exist in certain communties and contexts, such as futurist writings and queer theory, but I hope that we can incorporate them
+      into our everyday conversations more. We need to dream and imagine bigger things because the only things that truly limit our future is our collective
+      imagination about what it could be.
+
+    </div>
+
+    <img     data-aos="fade-up"
+    src="https://media1.tenor.com/images/a1c02bab6e0b391daf7f5efc000725ff/tenor.gif?itemid=9154819"
+    alt="Studying 2"
+    style="top:53vh;position:absolute;left:50vw;height:auto;width:45vw;"
+    >
   </section>
 </div>
 </template>
