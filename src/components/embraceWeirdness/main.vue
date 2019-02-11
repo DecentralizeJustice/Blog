@@ -16,7 +16,7 @@
     <img
     src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
     alt="Scary Driver"
-    class="bounce" style="width:11vh;height:auto;left:49vw">
+    class="bounce" style="width:11vh;height:auto;left:49vw;height:auto;">
   </section>
 
   <section style="background-color: rgb(29, 66, 76);height: 75vh;position: relative;">
@@ -66,11 +66,13 @@
     sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et,
     tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
     </p>
-    <img src="https://images.pexels.com/photos/1467564/pexels-photo-1467564.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    <img     data-aos="fade-left"
+    src="https://images.pexels.com/photos/1467564/pexels-photo-1467564.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     alt="Studying"
     style="top:5vh;position:absolute;right:5vw;height:auto;width:28vw;"
     >
-    <img src="https://images.pexels.com/photos/545062/pexels-photo-545062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    <img     data-aos="fade-left"
+    src="https://images.pexels.com/photos/545062/pexels-photo-545062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     alt="Studying 2"
     style="top:45vh;position:absolute;right:5vw;height:auto;width:28vw;"
     >
