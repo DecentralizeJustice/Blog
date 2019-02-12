@@ -92,7 +92,7 @@
       simply draw from past technologies to learn about the future. If we try and do this we will limit ourselves and
        instead we should embrace this weirdness and unfamiliarity. </p>
 
-      It should be clear by now to you that comparing innovative technologies isn’t the best thing to do, but people
+      It should be clear by now  that comparing innovative technologies isn’t the best thing to do, but people
       do this all the time with cryptocurrencies.
       We have all seen articles that compare bitcoin and cash. These articles usually compare things like
       security or transaction speed and volume and come to the conclusion that cryptocurrencies will never be that big because
