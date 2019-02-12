@@ -37,21 +37,19 @@
     style="width:50vw;margin-left:5vw;font-size:20px;line-height: 27px;background-color:white;
     border-style:solid;border-color: rgb(29, 66, 76);border-width: 1vh;padding:2vw" class="subheading">
     <p><span class="firstcharacter">No!</span>
-    would have hopefully been your answer. You would say no because your driver
-    made a connection based on similarities that don’t really matter. In this example it is clear and comical that this person does
+    would  hopefully be your answer. You should say no because your driver
+    probably isn't good at drvivng.This is because they made a connections and skills based on similarities that don’t really matter.
+     In this example it is clear and comical that this driver does
     not understand how to drive well. Cars and bikes share some similarities, but cars were an innovative technology compared to bikes,
     so drawing similarities between the two technologies isn’t really useful, and can be dangerous.</p>
 
-    <p>When I first started learning about cryptocurrencies I wanted to understand everything about them. I wanted to know what types they were,
+    When I first started learning about cryptocurrencies I wanted to understand everything about them. I wanted to know what types there were,
      how they worked, how I could get involved, and most importantly, what they would look like in the future. In order to learn about the
      future of  cryptocurrencies, I decided to look to the past for guidance and since the internet and cryptocurrencies seemed similar I decided
       to study the history of the internet in order to learn more about how cryptocurrencies might grow and evolve in the future. At the time
-      this made perfect sense to me, since were taught that history is a great tool for learning about the future. This didn’t really help me
+      this made perfect sense to me, since we are taught that history is a great tool for learning about the future. This didn’t really help me
       learn anything about cryptocurrencies(although it is a great thing to know about). That was years ago, and I know why my plan to predict the
-      future of crypto didn't work; Drawing similarities between innovative technologies doesn't  work because of the nature of innovation.</p>
-
-     Hubris combined with focusing on how two technologies are similar can cost you to get into an accident, such as the case with a car vs
-      a bicycle  or to miss out on some beautiful and life changing opportunities because technology is weird and unpredictable.
+      future of crypto didn't work; Drawing similarities between innovative technologies doesn't  work because of the nature of innovation.
 
     </div>
     <img     data-aos="fade-left"
@@ -68,7 +66,7 @@
 
   <section style="background-color: rgb(29, 66, 76);height: 95vh;position: relative;">
     <p style="position:relative;top: 8vh;width:85vw;color: white;text-align:left;left:8%;"
-       class="font-weight-black display-2" >
+       class="font-weight-black display-2 quote" >
       If what I say now seems to be very reasonable, then I will have failed completely.
        Only if what I tell you appears absolutely unreasonable have we any chance of visualizing
        the future as it really will happen. <br>  - Arthur C. Clarke
@@ -87,18 +85,16 @@
     border-style:solid;border-color: rgb(29, 66, 76);border-width:1vh;padding:2vw" class="subheading">
     <p>
       Innovative technology is weird because humans are weird. There is no way to predict the path that these technologies
-     might take. Arthur C. Clarke was a futurist known for co-writing the screenplay for 2001: A Space Odyssey .
-     They firmly believed that the future would be an absurd place to people living in the past. For example, If i tried
-      to convince a person from 2000 that the reality tv star Donal Trump would become president and use the internet as
-      a platform to argue with Snoop Dog, the gangster rapper, and Madonna , the pop star, then they would most likely
-      laugh in my face. In fact the Simpsons actually made an episode where trump was president, as a joke. People are
-      weird and technology is weird. This weirdness means that the future is almost impossible to predict. We can't
+     might take. For example, If i tried
+      to convince a person from 2000 that the reality TV star Donal Trump would become president and use the internet as
+      a platform to argue with Snoop Dog ,the gangster rapper, and Madonna ,the pop star, then they would most likely
+      laugh in my face. People are weird and technology is weird. This weirdness means that the future is almost impossible to predict. We can't
       simply draw from past technologies to learn about the future. If we try and do this we will limit ourselves and
        instead we should embrace this weirdness and unfamiliarity. </p>
 
       It should be clear by now to you that comparing innovative technologies isn’t the best thing to do, but people
       do this all the time with cryptocurrencies.
-      We have all seen articles stating that compare bitcoin and cash. These articles usually compare things like
+      We have all seen articles that compare bitcoin and cash. These articles usually compare things like
       security or transaction speed and volume and come to the conclusion that cryptocurrencies will never be that big because
       they don’t really compare to the current money that we have now. These people tend to make the mistake of comparing innovative technologies
       to past technologies. Instead of focusing on how cash is similar to bitcoin, it would be more enriching to focus on how they are different.
@@ -122,14 +118,21 @@
     <div
     style="width:50vw;position:absolute;left:5vw;font-size:20px;line-height: 27px;background-color:white;
     border-style:solid;border-color: #486E70;border-width: 1vh;padding:2vw" class="subheading">
-    <p>We should focus on how weird bitcoin and ethereum is compared to old technologies and how it will be different in the future compared to historical technologies.
-    We should embrace this weirdness and allow it to expand our understanding of the future and ourselves, instead of trying to fit cryptocurrencies into our current
-    understanding of the world, which are  often based upon the past.</p>
+    <p>We should focus on how weird bitcoin and ethereum is compared to old technologies and how
+      it will be different in the future.
+    We should embrace this weirdness and allow it to expand our understanding of the future and
+    ourselves, instead of trying to fit cryptocurrencies into our current
+    understanding of the world.</p>
 
-    I want us to have more weird conversations, less conversations focusing on the mundane and archaic. There are a million articles about how cryptocurrencies will
-    change the fin tech industries, but very few on how dao’s will change what it means to be human or how a microtransaction based economy could be a more equitable
-     one. These types of conversations exist in certain communties and contexts, such as futurist writings and queer theory, but I hope that we can incorporate them
-      into our everyday conversations more. We need to dream and imagine bigger things because the only things that truly limit our future is our collective
+    I want us to have more weird conversations ,and less conversations focusing on the mundane.
+    There are a million articles about how cryptocurrencies will
+    change the fin tech industry, but very few on how dao’s will change what it means to be human or how a
+    microtransaction based economy could be a more equitable
+     way to distribute money and value. These types of conversations exist in certain communties and contexts,
+      such as futurist writings and queer theory, but I hope that we can incorporate them
+      into our everyday conversations more. We should let go of the past and  stop trying to predict the future.
+      We need to dream and imagine bigger things because the only
+      things that truly limit our future is our collective
       imagination about what it could be.
 
     </div>
