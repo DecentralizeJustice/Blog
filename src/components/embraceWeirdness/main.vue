@@ -39,17 +39,19 @@
     <p><span class="firstcharacter">No!</span>
     would  hopefully be your answer. You should say no because your driver
     probably isn't good at drvivng.This is because they made a connections and skills based on similarities that don’t really matter.
-     In this example it is clear and comical that this driver does
+     In this example it is comically clear that this driver does
     not understand how to drive well. Cars and bikes share some similarities, but cars were an innovative technology compared to bikes,
-    so drawing similarities between the two technologies isn’t really useful, and can be dangerous.</p>
+    so drawing similarities between the two technologies isn’t really useful and can be dangerous. When I made this mistake,
+  but with cryptocurrencies, it wasn't as comical or dangerous though.</p>
 
     When I first started learning about cryptocurrencies I wanted to understand everything about them. I wanted to know what types there were,
      how they worked, how I could get involved, and most importantly, what they would look like in the future. In order to learn about the
      future of  cryptocurrencies, I decided to look to the past for guidance and since the internet and cryptocurrencies seemed similar I decided
       to study the history of the internet in order to learn more about how cryptocurrencies might grow and evolve in the future. At the time
       this made perfect sense to me, since we are taught that history is a great tool for learning about the future. This didn’t really help me
-      learn anything about cryptocurrencies(although it is a great thing to know about). That was years ago, and I know why my plan to predict the
-      future of crypto didn't work; Drawing similarities between innovative technologies doesn't  work because of the nature of innovation.
+      learn anything about cryptocurrencies, although the history of the internet is a great thing to know about. My mistake was years ago, and
+      I know why my plan to predict the
+      future of crypto didn't work; Drawing similarities between innovative technologies doesn't work because of the weird nature humanity and innovation.
 
     </div>
     <img     data-aos="fade-left"
@@ -86,19 +88,20 @@
     <p>
       Innovative technology is weird because humans are weird. There is no way to predict the path that these technologies
      might take. For example, If i tried
-      to convince a person from 2000 that the reality TV star Donal Trump would become president and use the internet as
+      to convince a person from 2001 that the reality TV star Donald Trump would become president and use the internet as
       a platform to argue with Snoop Dog ,the gangster rapper, and Madonna ,the pop star, then they would most likely
       laugh in my face. People are weird and technology is weird. This weirdness means that the future is almost impossible to predict. We can't
       simply draw from past technologies to learn about the future. If we try and do this we will limit ourselves
-      and risk sounding like the driver from ealier when these technlogies come into existence.
-       Instead we should embrace this weirdness and unfamiliarity with a broad imagination and and many questions. </p>
+      and risk sounding like the driver from ealier when these innovative technlogies are used commonly.
+       Instead we should embrace this weirdness and unfamiliarity with a broad imagination and many questions. </p>
 
       It should be clear by now  that comparing innovative technologies to old technlogies isn’t the best thing to do, but people
       do this all the time with cryptocurrencies.
       We have all seen articles that compare bitcoin and cash. These articles usually compare things like
       security or transaction speed and volume and come to the conclusion that cryptocurrencies will never be that big because
       they don’t really compare to the current money that we have now. These people tend to make the mistake of comparing innovative technologies
-      to past technologies. Instead of focusing on how cash is similar to bitcoin, it would be more enriching to focus on how they are different.
+      to past technologies. Instead of focusing on how cash is similar to bitcoin, it would be more enriching to focus on how they are different
+      and the possibilities that exist in this differnce.
 
     </div>
     <img     data-aos="fade-right"
@@ -119,23 +122,23 @@
     <div
     style="width:50vw;position:absolute;left:5vw;font-size:22px;line-height: 27px;background-color:white;
     border-style:solid;border-color: #486E70;border-width: 1vh;padding:2vw" class="subheading">
-    <p>We should focus on how weird bitcoin and ethereum is compared to old technologies and how
-      it will be different in the future. It is almost impossible to try and predict the specifics
+    <p>We should focus on how weird bitcoin and ethereum is compared to old tech and how
+      they will be different in the future, when compared to old tech. It is almost impossible to try and predict the specifics
       of future technologies, but we can imagine what they might look like. The process of imagining instead of
       predicting the future, unburdens us from having to be right and looking to history to support our statements.
       Imagining instead allows us to explore infinite possibilites, granting us the complete freedom to dream. These dreams
       may be weird and unfamiliar, and they should be.
     We should embrace the weirdness of these new ideas and allow them to expand our understanding of the future and
     ourselves, instead of trying to fit cryptocurrencies into our current
-    understanding of the world.</p>
+    understanding of the world. We owe cryptocurrencies and ourselves the freedom to imagine.</p>
 
-    I want us to have more weird conversations ,and less conversations focusing on the mundane.
+    I want us to have more weird and imaginative conversations ,and less conversations focusing on the relatively mundane advancements.
     There are a million articles about how cryptocurrencies will
-    change the fin tech industry, but very few on how decentralized organizations will change what it means to be human or how a
-    microtransaction based economy could be a more equitable
-     way to distribute money and value. These types of conversations exist in certain communties and contexts,
-      such as futurist writings and queer theory, but I hope that we can incorporate them
-      into our everyday conversations more.  We should let go of the past and  stop trying to predict the future.
+    make moving money faster, but very few on how decentralized organizations will change what it means to be human or how a
+    microtransaction focused economy could be a more equitable
+     way to distribute value. These types of conversations exist in certain communties and contexts,
+      such as futurist writings and queer theory, but I hope that we can have more imaginative and unbound
+      conversations everday.  We should let go of the past and  stop trying to predict the future.
       We need to dream and imagine bigger things because the only
       thing that truly limits our future is our collective
       imagination about what the future could be.
