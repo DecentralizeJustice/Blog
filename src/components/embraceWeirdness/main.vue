@@ -34,7 +34,7 @@
    style="background-color: #486E70;height: 89vh;position: relative;padding-top:5vh;">
 
     <div
-    style="width:50vw;margin-left:5vw;font-size:22px;line-height: 27px;background-color:white;
+    style="width:50vw;margin-left:5vw;font-size:25px;line-height: 27px;background-color:white;
     border-style:solid;border-color: rgb(29, 66, 76);border-width: 1vh;padding:2vw" class="subheading">
     <p><span class="firstcharacter">No!</span>
     would  hopefully be your answer. You should say no because your driver
