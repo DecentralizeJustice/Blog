@@ -34,7 +34,7 @@
    style="background-color: #486E70;height: 89vh;position: relative;padding-top:5vh;">
 
     <div
-    style="width:50vw;margin-left:5vw;font-size:20px;line-height: 27px;background-color:white;
+    style="width:50vw;margin-left:5vw;font-size:22px;line-height: 27px;background-color:white;
     border-style:solid;border-color: rgb(29, 66, 76);border-width: 1vh;padding:2vw" class="subheading">
     <p><span class="firstcharacter">No!</span>
     would  hopefully be your answer. You should say no because your driver
@@ -81,7 +81,7 @@
    style="background-color: #486E70;height: 89vh;position: relative;padding-top:5vh;">
 
     <div
-    style="position:absolute;width:50vw;left:44vw;font-size:20px;line-height: 27px;background-color:white;
+    style="position:absolute;width:50vw;left:44vw;font-size:22px;line-height: 27px;background-color:white;
     border-style:solid;border-color: rgb(29, 66, 76);border-width:1vh;padding:2vw" class="subheading">
     <p>
       Innovative technology is weird because humans are weird. There is no way to predict the path that these technologies
@@ -89,10 +89,11 @@
       to convince a person from 2000 that the reality TV star Donal Trump would become president and use the internet as
       a platform to argue with Snoop Dog ,the gangster rapper, and Madonna ,the pop star, then they would most likely
       laugh in my face. People are weird and technology is weird. This weirdness means that the future is almost impossible to predict. We can't
-      simply draw from past technologies to learn about the future. If we try and do this we will limit ourselves and
-       instead we should embrace this weirdness and unfamiliarity. </p>
+      simply draw from past technologies to learn about the future. If we try and do this we will limit ourselves
+      and risk sounding like the driver from ealier when these technlogies come into existence.
+       Instead we should embrace this weirdness and unfamiliarity with a broad imagination and and many questions. </p>
 
-      It should be clear by now  that comparing innovative technologies isn’t the best thing to do, but people
+      It should be clear by now  that comparing innovative technologies to old technlogies isn’t the best thing to do, but people
       do this all the time with cryptocurrencies.
       We have all seen articles that compare bitcoin and cash. These articles usually compare things like
       security or transaction speed and volume and come to the conclusion that cryptocurrencies will never be that big because
@@ -116,24 +117,28 @@
    style="background-color: rgb(29, 66, 76);height: 89vh;position: relative;padding-top:5vh;">
 
     <div
-    style="width:50vw;position:absolute;left:5vw;font-size:20px;line-height: 27px;background-color:white;
+    style="width:50vw;position:absolute;left:5vw;font-size:22px;line-height: 27px;background-color:white;
     border-style:solid;border-color: #486E70;border-width: 1vh;padding:2vw" class="subheading">
     <p>We should focus on how weird bitcoin and ethereum is compared to old technologies and how
-      it will be different in the future.
-    We should embrace this weirdness and allow it to expand our understanding of the future and
+      it will be different in the future. It is almost impossible to try and predict the specifics
+      of future technologies, but we can imagine what they might look like. The process of imagining instead of
+      predicting the future, unburdens us from having to be right and looking to history to support our statements.
+      Imagining instead allows us to explore infinite possibilites, granting us the complete freedom to dream. These dreams
+      may be weird and unfamiliar, and they should be.
+    We should embrace the weirdness of these new ideas and allow them to expand our understanding of the future and
     ourselves, instead of trying to fit cryptocurrencies into our current
     understanding of the world.</p>
 
     I want us to have more weird conversations ,and less conversations focusing on the mundane.
     There are a million articles about how cryptocurrencies will
-    change the fin tech industry, but very few on how dao’s will change what it means to be human or how a
+    change the fin tech industry, but very few on how decentralized organizations will change what it means to be human or how a
     microtransaction based economy could be a more equitable
      way to distribute money and value. These types of conversations exist in certain communties and contexts,
       such as futurist writings and queer theory, but I hope that we can incorporate them
-      into our everyday conversations more. We should let go of the past and  stop trying to predict the future.
+      into our everyday conversations more.  We should let go of the past and  stop trying to predict the future.
       We need to dream and imagine bigger things because the only
-      things that truly limit our future is our collective
-      imagination about what it could be.
+      thing that truly limits our future is our collective
+      imagination about what the future could be.
 
     </div>
 
