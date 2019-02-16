@@ -1,8 +1,8 @@
 <template>
 
   <v-layout align-start row wrap v-if="posts != undefined">
-    <v-flex v-for="post in posts" :key="post.id" md3 class="mt-5 pt-1 cardSpace">
-      <router-link :to=post.routerlink>
+    <v-flex v-for="post in posts" :key="post.id" xs10 mt-1 mb-1  offset-xs1 class="cardSpace">
+      <router-link :to= "post.routerlink">
       <v-hover>
            <v-card
              slot-scope="{ hover }"
@@ -73,8 +73,5 @@ width: 100%;
 a {
   color: none;
   text-decoration: none; /* no underline */
-}
-.cardSpace {
-  margin-left: 6.4%;
 }
 </style>
