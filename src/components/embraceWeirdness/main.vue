@@ -1,7 +1,7 @@
 <template>
-<v-container text-xs-center pa-0 ma-0 style="">
 
-    <v-layout align-start row wrap style="overflow:hidden;" xs12 >
+
+    <v-layout align-start row wrap style="overflow:hidden;" xs12 pa-0 ma-0 >
       <v-flex class="hidden-sm-and-down intro" xs12 style="position:relative;height:101vh;">
                <v-flex class="title" xs5 offset-xs1 pa-4>
                <div class="display-4 white--text font-weight-medium" >
@@ -57,48 +57,29 @@
            alt="Scary Driver" style="top:10vh;width:50vh;height:auto;left:0vw;position:relative;overflow:hidden;"/>
         </v-flex>
 
-    <!-- <v-layout align-start row wrap >
-      <v-flex class="hidden-sm-and-down" style="position:relative;height:100vh;">
-        <section style="background-color: rgb(29, 66, 76);height: 75vh;position: relative;">
-          <p style="position:relative;top: 8vh;width:61.8%;color: white;text-align:left;left:8%;"
+        <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:101vh;background-color: #486E70;">
+          <p style="position:relative;top: 10vh;width:61.8%;color: white;text-align:left;left:8%;"
              class="font-weight-black display-3" >
             Would you take a ride from a driver who learned how to drive from studying and riding bicycles?
           </p>
-          <img
+          <video
+          muted loop autoplay
           data-aos="fade-up"
-          src="https://media.giphy.com/media/3oEhn98ueBrGZQJTJ6/giphy.gif"
-          alt="Scary Driver" style="top:10vh;position:relative;left:52%;height:auto;width:40vw;">
-        </section>
-               <v-flex class="title" xs5 offset-xs1 pa-4>
-               <div class="display-4 white--text font-weight-medium" >
-                 Embrace Weirdness
-               </div>
-               <br>
-               <div class="white--text display-1 font-weight-light">
-                 Cryptocurrency feels weird. It should.
-               </div>
-             </v-flex>
-        <img
-        src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
-        alt="Scary Driver"
-        class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
-      </v-flex>
-      <v-flex class="intro hidden-md-and-up" style="position:relative;height:90vh;">
-               <v-flex class="title" xs10 offset-xs1 pa-4>
-               <div class="display-3 white--text font-weight-medium" >
-                 Embrace Weirdness
-               </div>
-               <br>
-               <div class="white--text display-1 font-weight-light">
-                 Cryptocurrency feels weird. It should.
-               </div>
-             </v-flex>
-        <img
-        src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
-        alt="Scary Driver"
-        class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
+          src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy.mp4"
+          alt="Scary Driver" style="top:12vh;position:relative;left:12vw;height:auto;width:40vw;"/>
         </v-flex>
-    </v-layout > -->
+        <v-flex xs12 class="hidden-md-and-up" style="position:relative;height:90vh;background-color: rgb(29, 66, 76);">
+           <v-flex   class="justify-center" style="margin: auto; width:90%;">
+             <p  style="position:relative;top:10vh;color:white;text-align:center;" class="display-1">
+               Would you take a ride from a driver who learned how to drive from studying and riding bicycles?
+             </p>
+           </v-flex>
+           <video
+           muted loop autoplay
+           data-aos="fade-up"
+           src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy.mp4"
+           alt="Scary Driver" style="top:10vh;width:50vh;height:auto;left:0vw;position:relative;overflow:hidden;"/>
+        </v-flex>
 
   <!-- <section
    style="background-color: #486E70;height: 89vh;position: relative;padding-top:5vh;">
@@ -223,7 +204,7 @@
     >
   </section> -->
     </v-layout >
-  </v-container>
+
 </template>
 
 <script>
