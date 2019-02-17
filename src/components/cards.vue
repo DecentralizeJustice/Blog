@@ -1,7 +1,7 @@
 <template>
 
-  <v-layout align-start row wrap v-if="posts != undefined">
-    <v-flex v-for="post in posts" :key="post.id" xs10 mt-1 mb-1  offset-xs1 class="cardSpace">
+  <v-layout align-start row wrap v-if="posts != undefined" mt-2>
+    <v-flex v-for="post in posts" :key="post.id" xs10 md3 mt-1 mb-1  offset-xs1 class="cardSpace">
       <router-link :to= "post.routerlink">
       <v-hover>
            <v-card
