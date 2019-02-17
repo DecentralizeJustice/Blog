@@ -40,7 +40,7 @@
           </p>
           <img
           data-aos="fade-up"
-          src="https://media.giphy.com/media/3oEhn98ueBrGZQJTJ6/giphy.gif"
+          src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy.mp4"
           alt="Scary Driver" style="top:20vh;position:relative;left:12vw;height:auto;width:40vw;">
         </v-flex>
         <v-flex xs12 class="hidden-md-and-up" style="position:relative;height:90vh;background-color: rgb(29, 66, 76);">
@@ -51,7 +51,7 @@
            </v-flex>
            <img
            data-aos="fade-up"
-           src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy-downsized.gif"
+           src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy.mp4"
            alt="Scary Driver" style="top:10vh;width:60vh;height:auto;left:0vw;position:relative">
         </v-flex>
 
