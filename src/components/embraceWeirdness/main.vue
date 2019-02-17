@@ -1,5 +1,6 @@
 <template>
-<v-container grid-list-md text-xs-center fluid pa-0>
+<v-container grid-list-md text-xs-center fluid pa-0 style="    max-width: 100%;
+    overflow-x: hidden;">
 
     <v-layout align-start row wrap>
       <v-flex class="intro hidden-sm-and-down" style="position: relative;height:100vh;">
