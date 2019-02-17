@@ -32,7 +32,7 @@
         alt="Scary Driver"
         class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
         </v-flex>
-
+<!-- 
         <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:101vh;background-color: rgb(29, 66, 76);">
           <p style="position:relative;top: 10vh;width:61.8%;color: white;text-align:left;left:8%;"
              class="font-weight-black display-3" >
@@ -55,7 +55,7 @@
            data-aos="fade-up"
            src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy.mp4"
            alt="Scary Driver" style="top:10vh;width:50vh;height:auto;left:0vw;position:relative;overflow:hidden;"/>
-        </v-flex>
+        </v-flex> -->
 
     <!-- <v-layout align-start row wrap >
       <v-flex class="hidden-sm-and-down" style="position:relative;height:100vh;">
