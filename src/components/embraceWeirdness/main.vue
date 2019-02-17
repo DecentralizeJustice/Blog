@@ -51,8 +51,8 @@
            </v-flex>
            <img
            data-aos="fade-up"
-           src="https://media.giphy.com/media/3oEhn98ueBrGZQJTJ6/giphy.gif"
-           alt="Scary Driver" style="top:20vh;width:60vh;height:auto;left:0vw;position:relative">
+           src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy-downsized.gif"
+           alt="Scary Driver" style="top:10vh;width:60vh;height:auto;left:0vw;position:relative">
         </v-flex>
 
     <!-- <v-layout align-start row wrap >
