@@ -1,7 +1,7 @@
 <template>
-<v-container grid-list-md text-xs-center fluid pa-0 ma-0 style="">
+<v-container text-xs-center pa-0 ma-0 style="">
 
-    <v-layout align-start row wrap style="width:101vw;" >
+    <v-layout align-start row wrap style="overflow:hidden;" xs12 >
       <v-flex class="hidden-sm-and-down intro" xs12 style="position:relative;height:101vh;">
                <v-flex class="title" xs5 offset-xs1 pa-4>
                <div class="display-4 white--text font-weight-medium" >
