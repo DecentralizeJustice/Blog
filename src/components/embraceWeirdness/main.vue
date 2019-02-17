@@ -1,9 +1,9 @@
 <template>
-<v-container grid-list-md text-xs-center fluid pa-0 style="    max-width: 100vw;
+<v-container grid-list-md text-xs-center fluid pa-0 style="max-width: 100vw;
     overflow-x: hidden;">
 
     <v-layout align-start row wrap>
-      <v-flex class="intro hidden-sm-and-down" style="position: relative;height:100vh;">
+      <v-flex class="intro hidden-sm-and-down" style="position: relative;height:100vh;overflow-y: hidden;">
                <v-flex class="title" xs5 offset-xs1 pa-4>
                <div class="display-4 white--text font-weight-medium" >
                  Embrace Weirdness
