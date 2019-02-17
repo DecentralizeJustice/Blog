@@ -1,8 +1,8 @@
 <template>
-<v-container grid-list-md text-xs-center fluid pa-0 style="">
+<v-container grid-list-md text-xs-center fluid pa-0 ma-0 style="">
 
-    <v-layout align-start row wrap style="" xs12>
-      <v-flex class="hidden-sm-and-down intro" xs12 style="position:relative;height:101vh;overflow-x:hidden;">
+    <v-layout align-start row wrap style="width:101vw;" >
+      <v-flex class="hidden-sm-and-down intro" xs12 style="position:relative;height:101vh;">
                <v-flex class="title" xs5 offset-xs1 pa-4>
                <div class="display-4 white--text font-weight-medium" >
                  Embrace Weirdness
@@ -14,7 +14,7 @@
              </v-flex>
         <img
         src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
-        alt="Scary Driver"
+        alt="Scroll Down"
         class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
       </v-flex>
       <v-flex class="intro hidden-md-and-up xs12" style="position:relative;height:90vh;overflow:hidden;">
@@ -32,7 +32,7 @@
         alt="Scary Driver"
         class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
         </v-flex>
-<!-- 
+
         <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:101vh;background-color: rgb(29, 66, 76);">
           <p style="position:relative;top: 10vh;width:61.8%;color: white;text-align:left;left:8%;"
              class="font-weight-black display-3" >
@@ -55,7 +55,7 @@
            data-aos="fade-up"
            src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy.mp4"
            alt="Scary Driver" style="top:10vh;width:50vh;height:auto;left:0vw;position:relative;overflow:hidden;"/>
-        </v-flex> -->
+        </v-flex>
 
     <!-- <v-layout align-start row wrap >
       <v-flex class="hidden-sm-and-down" style="position:relative;height:100vh;">
