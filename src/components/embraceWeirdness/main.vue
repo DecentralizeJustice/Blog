@@ -115,42 +115,36 @@
           </section>
         </v-flex>
 
-  <!-- <section
-   style="background-color: #486E70;height: 89vh;position: relative;padding-top:5vh;">
+        <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:101vh;background-color: rgb(29, 66, 76);">
+          <p style="position:relative;top: 8vh;width:85vw;color: white;text-align:left;left:8%;"
+             class="font-weight-black display-2 quote" >
+            If what I say now seems to be very reasonable, then I will have failed completely.
+             Only if what I tell you appears absolutely unreasonable have we any chance of visualizing
+             the future as it really will happen. <br>  - Arthur C. Clarke
+          </p>
+          <video
+          muted loop autoplay
+          data-aos="fade-up"
+          src="https://media.giphy.com/media/11XWQAetk8DqLK/giphy.mp4"
+          alt="Scary Driver" style="top:10vh;position:relative;left:40vw;height:auto;width:50vw;"/>
+        </v-flex>
+        <v-flex xs12 class="hidden-md-and-up" style="position:relative;height:80vh;background-color: rgb(29, 66, 76);">
+           <v-flex   class="justify-center" style="margin: auto; width:100%;">
+             <p style="position:relative;top: 8vh;width:90%;color: white;text-align:left;left:3%;font-size:1.2rem;line-height:1.5rem;"
+                class="font-weight-black" >
+               If what I say now seems to be very reasonable, then I will have failed completely.
+                Only if what I tell you appears absolutely unreasonable have we any chance of visualizing
+                the future as it really will happen. <br>  - Arthur C. Clarke
+             </p>
+           </v-flex>
+           <video
+           muted loop autoplay
+           data-aos="fade-up"
+           src="https://media.giphy.com/media/11XWQAetk8DqLK/giphy.mp4"
+           alt="Scary Driver" style="top:15vh;width:100vw;height:auto;left:0vw;position:relative;overflow:hidden;"/>
+        </v-flex>
 
-    <div
-    style="width:50vw;margin-left:5vw;font-size:25px;line-height: 27px;background-color:white;
-    border-style:solid;border-color: rgb(29, 66, 76);border-width: 1vh;padding:2vw" class="subheading">
-    <p><span class="firstcharacter">No!</span>
-    would  hopefully be your answer. You should say no because your driver
-    probably isn't good at drvivng.This is because they made a connections and skills based on similarities that don’t really matter.
-     In this example it is comically clear that this driver does
-    not understand how to drive well. Cars and bikes share some similarities, but cars were an innovative technology compared to bikes,
-    so drawing similarities between the two technologies isn’t really useful and can be dangerous. When I made this mistake,
-  but with cryptocurrencies, it wasn't as comical or dangerous though.</p>
-
-    When I first started learning about cryptocurrencies I wanted to understand everything about them. I wanted to know what types there were,
-     how they worked, how I could get involved, and most importantly, what they would look like in the future. In order to learn about the
-     future of  cryptocurrencies, I decided to look to the past for guidance and since the internet and cryptocurrencies seemed similar I decided
-      to study the history of the internet in order to learn more about how cryptocurrencies might grow and evolve in the future. At the time
-      this made perfect sense to me, since we are taught that history is a great tool for learning about the future. This didn’t really help me
-      learn anything about cryptocurrencies, although the history of the internet is a great thing to know about. My mistake was years ago, and
-      I know why my plan to predict the
-      future of crypto didn't work; Drawing similarities between innovative technologies doesn't work because of the weird nature humanity and innovation.
-
-    </div>
-    <img     data-aos="fade-left"
-    src="https://images.pexels.com/photos/545062/pexels-photo-545062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-    alt="Studying"
-    style="top:7vh;position:absolute;right:8vw;height:auto;width:28vw;"
-    >
-    <img     data-aos="fade-left"
-    src="http://www.mypressplus.com/wp-content/uploads/2018/02/history.jpg"
-    alt="Studying 2"
-    style="top:47vh;position:absolute;right:8vw;height:auto;width:28vw;"
-    >
-  </section>
-
+  <!--
   <section style="background-color: rgb(29, 66, 76);height: 95vh;position: relative;">
     <p style="position:relative;top: 8vh;width:85vw;color: white;text-align:left;left:8%;"
        class="font-weight-black display-2 quote" >
