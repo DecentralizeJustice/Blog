@@ -1,25 +1,40 @@
 <template>
-  <div>
-  <section class="intro" style="position: relative;">
+<v-container grid-list-md text-xs-center fluid pa-0>
 
-    <v-layout align-start row wrap >
-           <v-flex class="title" xs5 offset-xs1 pa-4>
-           <div class="display-4 white--text font-weight-medium" >
-             Embrace Weirdness
-           </div>
-           <br>
-           <div class="white--text display-1 font-weight-light">
-             Cryptocurrency feels weird. It should.
-           </div>
-         </v-flex>
-    </v-layout>
-    <img
-    src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
-    alt="Scary Driver"
-    class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
-  </section>
+    <v-layout align-start row wrap>
+      <v-flex class="intro hidden-sm-and-down" style="position: relative;height:100vh;">
+               <v-flex class="title" xs5 offset-xs1 pa-4>
+               <div class="display-4 white--text font-weight-medium" >
+                 Embrace Weirdness
+               </div>
+               <br>
+               <div class="white--text display-1 font-weight-light">
+                 Cryptocurrency feels weird. It should.
+               </div>
+             </v-flex>
+        <img
+        src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
+        alt="Scary Driver"
+        class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
+        </v-flex>
+        <v-flex class="intro hidden-md-and-up" style="position:relative;height:100vh;">
+                 <v-flex class="title" xs10 offset-xs1 pa-4>
+                 <div class="display-2 white--text font-weight-medium" >
+                   Embrace Weirdness
+                 </div>
+                 <br>
+                 <div class="white--text display-1 font-weight-light">
+                   Cryptocurrency feels weird. It should.
+                 </div>
+               </v-flex>
+          <img
+          src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
+          alt="Scary Driver"
+          class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
+          </v-flex>
+    </v-layout >
 
-  <section style="background-color: rgb(29, 66, 76);height: 75vh;position: relative;">
+  <!-- <section style="background-color: rgb(29, 66, 76);height: 75vh;position: relative;">
     <p style="position:relative;top: 8vh;width:61.8%;color: white;text-align:left;left:8%;"
        class="font-weight-black display-3" >
       Would you take a ride from a driver who learned how to drive from studying and riding bicycles?
@@ -151,8 +166,8 @@
     style="top:25vh;position:absolute;left:60vw;height:auto;width:34vw;
       border-style:solid;border-color: #486E70;border-width: 1vh;"
     >
-  </section>
-</div>
+  </section> -->
+</v-container>
 </template>
 
 <script>
