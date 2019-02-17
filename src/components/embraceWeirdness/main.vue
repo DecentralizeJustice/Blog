@@ -43,17 +43,17 @@
           src="https://media.giphy.com/media/3oEhn98ueBrGZQJTJ6/giphy.gif"
           alt="Scary Driver" style="top:20vh;position:relative;left:12vw;height:auto;width:40vw;">
         </v-flex>
-        <v-flex class="hidden-md-and-up xs12" style="position:relative;height:90vh;background-color: rgb(29, 66, 76);">
-           <v-flex xs10 offset-xs1 pa-4>
-             <p style="position:relative;top: 10vh;width:61.8%;color: white;text-align:left;left:8%;"
-                class=" " >
+        <v-flex xs12 class="hidden-md-and-up" style="position:relative;height:90vh;background-color: rgb(29, 66, 76);">
+           <v-flex   class="justify-center" style="margin: auto; width:90%">
+             <p  style="position:relative;top:10vh;color:white;text-align:center;" class="display-1">
                Would you take a ride from a driver who learned how to drive from studying and riding bicycles?
              </p>
            </v-flex>
            <img
+           data-aos="fade-up"
            src="https://media.giphy.com/media/3oEhn98ueBrGZQJTJ6/giphy.gif"
-           alt="Scary Driver" style="">
-          </v-flex>
+           alt="Scary Driver" style="top:20vh;width:60vh;height:auto;left:0vw;position:relative">
+        </v-flex>
 
     <!-- <v-layout align-start row wrap >
       <v-flex class="hidden-sm-and-down" style="position:relative;height:100vh;">
