@@ -1,7 +1,7 @@
 <template>
 <v-container grid-list-md text-xs-center fluid pa-0 style="max-width: 100vw;overflow-y: hidden;">
 
-    <v-layout align-start row wrap style="overflow-x:hidden;">
+    <v-layout align-start row wrap >
       <v-flex class="hidden-sm-and-down intro xs12" style="position:relative;height:101vh;">
                <v-flex class="title" xs5 offset-xs1 pa-4>
                <div class="display-4 white--text font-weight-medium" >
@@ -44,8 +44,8 @@
           src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy.mp4"
           alt="Scary Driver" style="top:12vh;position:relative;left:12vw;height:auto;width:40vw;"/>
         </v-flex>
-        <v-flex xs12 class="hidden-md-and-up" style="position:relative;height:90vh;background-color: rgb(29, 66, 76);overflow:hidden;">
-           <v-flex   class="justify-center" style="margin: auto; width:90%;overflow:hidden;">
+        <v-flex xs12 class="hidden-md-and-up" style="position:relative;height:90vh;background-color: rgb(29, 66, 76);">
+           <v-flex   class="justify-center" style="margin: auto; width:90%;">
              <p  style="position:relative;top:10vh;color:white;text-align:center;" class="display-1">
                Would you take a ride from a driver who learned how to drive from studying and riding bicycles?
              </p>
@@ -54,7 +54,7 @@
            muted loop autoplay
            data-aos="fade-up"
            src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy.mp4"
-           alt="Scary Driver" style="top:10vh;width:60vh;height:auto;left:0vw;position:relative;overflow:hidden;"/>
+           alt="Scary Driver" style="top:10vh;width:50vh;height:auto;left:0vw;position:relative;overflow:hidden;"/>
         </v-flex>
 
     <!-- <v-layout align-start row wrap >
