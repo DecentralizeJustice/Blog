@@ -16,22 +16,22 @@
         src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
         alt="Scary Driver"
         class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
+      </v-flex>
+      <v-flex class="intro hidden-md-and-up" style="position:relative;height:90vh;">
+               <v-flex class="title" xs10 offset-xs1 pa-4>
+               <div class="display-3 white--text font-weight-medium" >
+                 Embrace Weirdness
+               </div>
+               <br>
+               <div class="white--text display-1 font-weight-light">
+                 Cryptocurrency feels weird. It should.
+               </div>
+             </v-flex>
+        <img
+        src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
+        alt="Scary Driver"
+        class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
         </v-flex>
-        <v-flex class="intro hidden-md-and-up" style="position:relative;height:100vh;">
-                 <v-flex class="title" xs10 offset-xs1 pa-4>
-                 <div class="display-2 white--text font-weight-medium" >
-                   Embrace Weirdness
-                 </div>
-                 <br>
-                 <div class="white--text display-1 font-weight-light">
-                   Cryptocurrency feels weird. It should.
-                 </div>
-               </v-flex>
-          <img
-          src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
-          alt="Scary Driver"
-          class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
-          </v-flex>
     </v-layout >
 
   <!-- <section style="background-color: rgb(29, 66, 76);height: 75vh;position: relative;">
