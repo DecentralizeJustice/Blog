@@ -130,7 +130,7 @@
         </v-flex>
         <v-flex xs12 class="hidden-md-and-up" style="position:relative;height:80vh;background-color: rgb(29, 66, 76);">
            <v-flex   class="justify-center" style="margin: auto; width:100%;">
-             <p style="position:relative;top: 8vh;width:90%;color: white;text-align:left;left:3%;font-size:1.2rem;line-height:1.5rem;"
+             <p style="position:relative;top: 8vh;width:90%;color: white;text-align:left;left:3%;font-size:1.5rem;line-height:1.8rem;"
                 class="font-weight-black" >
                If what I say now seems to be very reasonable, then I will have failed completely.
                 Only if what I tell you appears absolutely unreasonable have we any chance of visualizing
@@ -145,18 +145,6 @@
         </v-flex>
 
   <!--
-  <section style="background-color: rgb(29, 66, 76);height: 95vh;position: relative;">
-    <p style="position:relative;top: 8vh;width:85vw;color: white;text-align:left;left:8%;"
-       class="font-weight-black display-2 quote" >
-      If what I say now seems to be very reasonable, then I will have failed completely.
-       Only if what I tell you appears absolutely unreasonable have we any chance of visualizing
-       the future as it really will happen. <br>  - Arthur C. Clarke
-    </p>
-    <img data-aos="fade-left"
-    src="https://i.gifer.com/D2qg.gif"
-    alt="2001: A Space Odyssey" style="top:5vh;position:relative;left:40vw;
-    height:auto;width:50vw;  border-style: solid;border-color: #486E70;border-width: 1vh;">
-  </section>
 
   <section
    style="background-color: #486E70;height: 89vh;position: relative;padding-top:5vh;">
