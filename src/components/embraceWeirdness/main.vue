@@ -50,11 +50,7 @@
                Would you take a ride from a driver who learned how to drive from studying and riding bicycles?
              </p>
            </v-flex>
-           <video
-           muted loop autoplay
-           data-aos="fade-up"
-           src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy.mp4"
-           alt="Scary Driver" style="top:10vh;width:50vh;height:auto;left:0vw;position:relative;overflow:hidden;"/>
+
         </v-flex>
 
     <!-- <v-layout align-start row wrap >
