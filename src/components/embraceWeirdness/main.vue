@@ -141,7 +141,7 @@
            muted loop autoplay
            data-aos="fade-up"
            src="https://media.giphy.com/media/11XWQAetk8DqLK/giphy.mp4"
-           alt="Scary Driver" style="top:15vh;width:100vw;height:auto;left:0vw;position:relative;overflow:hidden;"/>
+           alt="Scary Driver" style="top:10vh;width:100vw;height:auto;left:0vw;position:relative;overflow:hidden;"/>
         </v-flex>
 
   <!--
