@@ -1,5 +1,5 @@
 <template>
-<v-container grid-list-md text-xs-center fluid pa-0 style="    max-width: 100%;
+<v-container grid-list-md text-xs-center fluid pa-0 style="    max-width: 100vw;
     overflow-x: hidden;">
 
     <v-layout align-start row wrap>
