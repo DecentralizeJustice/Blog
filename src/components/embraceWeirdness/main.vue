@@ -166,8 +166,9 @@
             to past technologies. Instead of focusing on how cash is similar to bitcoin, it would be more enriching to focus on how they are different
             and the possibilities that exist in this differnce.
           </section>
-          <div style="width:25%;position:absolute;top: 50%;left: 1%;transform: translate(0%, -50%);">
-          <img    data-aos="fade-right"
+          <div data-aos="fade-right"
+          style="width:25%;position:absolute;top: 50%;left: 1%;transform: translate(0%, -50%);">
+          <img
           src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Snoop_Dogg_%2821615809071%29.jpg"
           alt="Snoop Dogg"
           style="position:relative;left:7vw;height:auto;width:100%;"
