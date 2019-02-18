@@ -209,8 +209,8 @@
 
         <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:100vh;background-color: rgb(29, 66, 76);">
           <section
-          style="position:relative;width:50vw;top:4vh;left:5vw;font-size:1.5rem;line-height: 1.5rem;background-color:white;
-          border-style:solid;border-color:#486E70; border-width:1vh;padding:2vw" >
+          style="position:absolute;width:50%;left:5vw;font-size:1.5rem;line-height: 1.5rem;background-color:white;
+          border-style:solid;border-color:#486E70; border-width:1vh;padding:2vw;transform: translate(0%, -50%);top: 50%;" >
           <p>We should focus on how weird bitcoin and ethereum is compared to old tech and how
             they will be different in the future, when compared to old tech. It is almost impossible to try and predict the specifics
             of future technologies, but we can imagine what they might look like. The process of imagining instead of
@@ -235,7 +235,7 @@
           <img     data-aos="fade-left"
           src="https://media1.tenor.com/images/88d89612db5eaacc6c9c6ac6bf6cd6e7/tenor.gif?itemid=7715402"
           alt="Studying 2"
-          style="top:25vh;position:absolute;left:60vw;height:auto;width:34vw;
+          style="top:50%;transform: translate(0%, -50%);position:absolute;left:60vw;height:auto;width:34vw;
             border-style:solid;border-color: #486E70;border-width: 1vh;"
           >
         </v-flex>
@@ -272,44 +272,6 @@
           >
         </v-flex>
 
-  <!--
-
-  <section
-   style="background-color: rgb(29, 66, 76);height: 87vh;position: relative;padding-top:5vh;">
-
-    <div
-    style="width:50vw;position:absolute;left:5vw;font-size:25px;line-height: 27px;background-color:white;
-    border-style:solid;border-color: #486E70;border-width: 1vh;padding:2vw" class="subheading">
-    <p>We should focus on how weird bitcoin and ethereum is compared to old tech and how
-      they will be different in the future, when compared to old tech. It is almost impossible to try and predict the specifics
-      of future technologies, but we can imagine what they might look like. The process of imagining instead of
-      predicting the future, unburdens us from having to be right and looking to history to support our statements.
-      Imagining instead allows us to explore infinite possibilites, granting us the complete freedom to dream. These dreams
-      may be weird and unfamiliar, and they should be.
-    We should embrace the weirdness of these new ideas and allow them to expand our understanding of the future and
-    ourselves, instead of trying to fit cryptocurrencies into our current
-    understanding of the world. We owe cryptocurrencies and ourselves the freedom to imagine.</p>
-
-    I want us to have more weird and imaginative conversations and less conversations focusing on the relatively mundane advancements.
-    There are a million articles about how cryptocurrencies will
-    make moving money faster, but very few on how decentralized organizations will change what it means to be human or how a
-    microtransaction focused economy could be a more equitable
-     way to distribute value. These types of conversations exist in certain communties and contexts,
-      such as futurist writings and queer theory, but I hope that we can have more imaginative and unbound
-      conversations everday.  We should let go of the past and  stop trying to predict the future.
-      We need to dream and imagine bigger things because the only
-      thing that truly limits our future is our collective
-      imagination about what the future could be.
-
-    </div>
-
-    <img     data-aos="fade-left"
-    src="https://media1.tenor.com/images/88d89612db5eaacc6c9c6ac6bf6cd6e7/tenor.gif?itemid=7715402"
-    alt="Studying 2"
-    style="top:25vh;position:absolute;left:60vw;height:auto;width:34vw;
-      border-style:solid;border-color: #486E70;border-width: 1vh;"
-    >
-  </section> -->
     </v-layout >
 
 </template>
