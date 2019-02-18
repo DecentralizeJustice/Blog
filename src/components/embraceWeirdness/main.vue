@@ -144,44 +144,61 @@
            alt="Scary Driver" style="top:10vh;width:100vw;height:auto;left:0vw;position:relative;overflow:hidden;"/>
         </v-flex>
 
+        <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:100vh;background-color: #486E70;">
+          <section
+          style="position:relative;width:50vw;top:9vh;left:40vw;font-size:1.5rem;line-height: 1.5rem;background-color:white;
+          border-style:solid;border-color: rgb(29, 66, 76);border-width:1vh;padding:2vw" >
+          <p>
+            Innovative technology is weird because humans are weird. There is no way to predict the path that these technologies
+           might take. For example, If i tried
+            to convince a person from 2001 that the reality TV star Donald Trump would become president and use the internet as
+            a platform to argue with Snoop Dog ,the gangster rapper, and Madonna ,the pop star, then they would most likely
+            laugh in my face. People are weird and technology is weird. This weirdness means that the future is almost impossible to predict. We can't
+            simply draw from past technologies to learn about the future. If we try and do this we will limit ourselves
+            and risk sounding like the driver from ealier when these innovative technlogies are used commonly.
+             Instead we should embrace this weirdness and unfamiliarity with a broad imagination and many questions. </p>
+
+            It should be clear by now  that comparing innovative technologies to old technlogies isn’t the best thing to do, but people
+            do this all the time with cryptocurrencies.
+            We have all seen articles that compare bitcoin and cash. These articles usually compare things like
+            security or transaction speed and volume and come to the conclusion that cryptocurrencies will never be that big because
+            they don’t really compare to the current money that we have now. These people tend to make the mistake of comparing innovative technologies
+            to past technologies. Instead of focusing on how cash is similar to bitcoin, it would be more enriching to focus on how they are different
+            and the possibilities that exist in this differnce.
+          </section>
+          <img     data-aos="fade-right"
+          src="https://upload.wikimedia.org/wikipedia/commons/4/42/Snoop_Dogg_snapped_attending_a_press_conference_in_India.jpg"
+          alt="Studying"
+          style="top:13vh;position:absolute;right:65vw;height:auto;width:28vw;"
+          >
+
+        </v-flex>
+        <v-flex xs12 class="hidden-md-and-up" style="position:relative;height:100%;background-color: #486E70;">
+          <section
+          style="padding:2vw;position;relative;margin-top:2%;margin-bottom:2%;width:95vw;margin-left:2.5vw;
+          font-size:1.2rem;line-height:1.5rem;background-color:white;
+          border-style:solid;border-color: rgb(29, 66, 76);border-width: 1vh;" >
+          <p>
+            Innovative technology is weird because humans are weird. There is no way to predict the path that these technologies
+           might take. For example, If i tried
+            to convince a person from 2001 that the reality TV star Donald Trump would become president and use the internet as
+            a platform to argue with Snoop Dog ,the gangster rapper, and Madonna ,the pop star, then they would most likely
+            laugh in my face. People are weird and technology is weird. This weirdness means that the future is almost impossible to predict. We can't
+            simply draw from past technologies to learn about the future. If we try and do this we will limit ourselves
+            and risk sounding like the driver from ealier when these innovative technlogies are used commonly.
+             Instead we should embrace this weirdness and unfamiliarity with a broad imagination and many questions. </p>
+
+            It should be clear by now  that comparing innovative technologies to old technlogies isn’t the best thing to do, but people
+            do this all the time with cryptocurrencies.
+            We have all seen articles that compare bitcoin and cash. These articles usually compare things like
+            security or transaction speed and volume and come to the conclusion that cryptocurrencies will never be that big because
+            they don’t really compare to the current money that we have now. These people tend to make the mistake of comparing innovative technologies
+            to past technologies. Instead of focusing on how cash is similar to bitcoin, it would be more enriching to focus on how they are different
+            and the possibilities that exist in this differnce.
+          </section>
+        </v-flex>
+
   <!--
-
-  <section
-   style="background-color: #486E70;height: 89vh;position: relative;padding-top:5vh;">
-
-    <div
-    style="position:absolute;width:50vw;left:44vw;font-size:25px;line-height: 27px;background-color:white;
-    border-style:solid;border-color: rgb(29, 66, 76);border-width:1vh;padding:2vw" class="subheading">
-    <p>
-      Innovative technology is weird because humans are weird. There is no way to predict the path that these technologies
-     might take. For example, If i tried
-      to convince a person from 2001 that the reality TV star Donald Trump would become president and use the internet as
-      a platform to argue with Snoop Dog ,the gangster rapper, and Madonna ,the pop star, then they would most likely
-      laugh in my face. People are weird and technology is weird. This weirdness means that the future is almost impossible to predict. We can't
-      simply draw from past technologies to learn about the future. If we try and do this we will limit ourselves
-      and risk sounding like the driver from ealier when these innovative technlogies are used commonly.
-       Instead we should embrace this weirdness and unfamiliarity with a broad imagination and many questions. </p>
-
-      It should be clear by now  that comparing innovative technologies to old technlogies isn’t the best thing to do, but people
-      do this all the time with cryptocurrencies.
-      We have all seen articles that compare bitcoin and cash. These articles usually compare things like
-      security or transaction speed and volume and come to the conclusion that cryptocurrencies will never be that big because
-      they don’t really compare to the current money that we have now. These people tend to make the mistake of comparing innovative technologies
-      to past technologies. Instead of focusing on how cash is similar to bitcoin, it would be more enriching to focus on how they are different
-      and the possibilities that exist in this differnce.
-
-    </div>
-    <img     data-aos="fade-right"
-    src="https://data.whicdn.com/images/310017963/large.jpg"
-    alt="Studying"
-    style="top:2vh;position:absolute;left:4vw;height:auto;width:23vw;"
-    >
-    <img     data-aos="fade-right"
-    src="https://i.dailymail.co.uk/i/pix/2013/10/06/article-0-188BC8F300000578-573_634x761.jpg"
-    alt="Studying 2"
-    style="bottom:2vh;position:absolute;left:18vw;height:auto;width:23vw;"
-    >
-  </section>
 
   <section
    style="background-color: rgb(29, 66, 76);height: 87vh;position: relative;padding-top:5vh;">
