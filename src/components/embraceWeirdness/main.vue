@@ -146,8 +146,8 @@
 
         <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:100vh;background-color: #486E70;">
           <section
-          style="position:relative;width:50vw;top:9vh;left:40vw;font-size:1.5rem;line-height: 1.5rem;background-color:white;
-          border-style:solid;border-color: rgb(29, 66, 76);border-width:1vh;padding:2vw" >
+          style="position:absolute;width:50%;top:50%;left:40vw;font-size:1.5rem;line-height:1.6rem;background-color:white;
+          border-style:solid;border-color: rgb(29, 66, 76);border-width:1vh;padding:2vw;transform: translate(0%, -50%);" >
           <p>
             Innovative technology is weird because humans are weird. There is no way to predict the path that these technologies
            might take. For example, If i tried
@@ -166,12 +166,15 @@
             to past technologies. Instead of focusing on how cash is similar to bitcoin, it would be more enriching to focus on how they are different
             and the possibilities that exist in this differnce.
           </section>
-          <video muted loop autoplay   data-aos="fade-right"
-          src="https://media.giphy.com/media/l0K3XTDR4lxtFVL9K/giphy.mp4"
-          alt="Studying"
-          style="top:13vh;position:absolute;right:65vw;height:auto;width:28vw;"
+          <div style="width:25%;position:absolute;top: 50%;left: 1%;transform: translate(0%, -50%);">
+          <img    data-aos="fade-right"
+          src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Snoop_Dogg_%2821615809071%29.jpg"
+          alt="Snoop Dogg"
+          style="position:relative;left:7vw;height:auto;width:100%;"
           />
-
+          <p style="position:relative;top:10%;left:8vw;">- Snoop Dogg by <a href="https://commons.wikimedia.org/wiki/File:Snoop_Dogg_(21615809071).jpg"
+            target="_blank">TechCrunch</a></p>
+        </div>
         </v-flex>
         <v-flex xs12 class="hidden-md-and-up" style="position:relative;height:100%;background-color: #486E70;">
           <section
@@ -265,8 +268,7 @@
           <img     data-aos="fade-up"
           src="https://media1.tenor.com/images/88d89612db5eaacc6c9c6ac6bf6cd6e7/tenor.gif?itemid=7715402"
           alt="Studying 2"
-          style="top:50%;position:relative;left:0vw;height:auto;width:100vw;
-            "
+          style="top:50%;position:relative;left:0vw;height:auto;width:100vw;"
           >
         </v-flex>
 
@@ -319,6 +321,10 @@ export default {
 </script>
 <!-- styling for the component -->
 <style scoped>
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
 .firstcharacter {
   float: left;
   font-family: Georgia;
