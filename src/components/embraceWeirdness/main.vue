@@ -166,11 +166,11 @@
             to past technologies. Instead of focusing on how cash is similar to bitcoin, it would be more enriching to focus on how they are different
             and the possibilities that exist in this differnce.
           </section>
-          <img     data-aos="fade-right"
-          src="https://upload.wikimedia.org/wikipedia/commons/4/42/Snoop_Dogg_snapped_attending_a_press_conference_in_India.jpg"
+          <video muted loop autoplay   data-aos="fade-right"
+          src="https://media.giphy.com/media/l0K3XTDR4lxtFVL9K/giphy.mp4"
           alt="Studying"
           style="top:13vh;position:absolute;right:65vw;height:auto;width:28vw;"
-          >
+          />
 
         </v-flex>
         <v-flex xs12 class="hidden-md-and-up" style="position:relative;height:100%;background-color: #486E70;">
@@ -196,6 +196,12 @@
             to past technologies. Instead of focusing on how cash is similar to bitcoin, it would be more enriching to focus on how they are different
             and the possibilities that exist in this differnce.
           </section>
+          <video  muted loop autoplay   data-aos="fade-up"
+          src="https://media.giphy.com/media/l0K3XTDR4lxtFVL9K/giphy.mp4"
+          alt="Studying 2"
+          style="top:50%;position:relative;left:0vw;height:auto;width:100vw;
+            "
+          />
         </v-flex>
 
         <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:100vh;background-color: rgb(29, 66, 76);">
