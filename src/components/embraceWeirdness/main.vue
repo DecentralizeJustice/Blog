@@ -236,7 +236,7 @@
           src="https://media1.tenor.com/images/88d89612db5eaacc6c9c6ac6bf6cd6e7/tenor.gif?itemid=7715402"
           alt="Black man thinking meme"
           style="top:50%;transform: translate(0%, -50%);position:absolute;left:60vw;height:auto;width:34%;
-            border-style:solid;border-color: #486E70;border-width:1%;padding:0%;"
+            border-style:solid;border-color: #486E70;border-width:3%;padding:0%;"
           >
         </v-flex>
         <v-flex xs12 class="hidden-md-and-up" style="position:relative;height:100%;background-color:rgb(29, 66, 76); ">
