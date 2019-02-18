@@ -59,7 +59,7 @@
         <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:100%;background-color: #486E70;">
           <section
           style="padding:2vw;position;relative;margin-top:2.5%;margin-bottom:2.5%;width:50vw;margin-left:5vw;
-          font-size:1.4rem;line-height:1.5rem;background-color:white;
+          font-size:1.4rem;line-height:1.8rem;background-color:white;
           border-style:solid;border-color: rgb(29, 66, 76);border-width: 1vh;" >
           <p><span class="firstcharacter">No!</span>
           would  hopefully be your answer. You should say no because your driver
@@ -146,7 +146,7 @@
 
         <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:100vh;background-color: #486E70;">
           <section
-          style="position:absolute;width:50%;top:50%;left:40vw;font-size:1.5rem;line-height:1.6rem;background-color:white;
+          style="position:absolute;width:50%;top:50%;left:40vw;font-size:1.4rem;line-height:1.8rem;background-color:white;
           border-style:solid;border-color: rgb(29, 66, 76);border-width:1vh;padding:2vw;transform: translate(0%, -50%);" >
           <p>
             Innovative technology is weird because humans are weird. There is no way to predict the path that these technologies
@@ -210,7 +210,7 @@
 
         <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:100vh;background-color: rgb(29, 66, 76);">
           <section
-          style="position:absolute;width:50%;left:5vw;font-size:1.5rem;line-height: 1.5rem;background-color:white;
+          style="position:absolute;width:50%;left:5vw;font-size:1.4rem;line-height:1.8rem;background-color:white;
           border-style:solid;border-color:#486E70; border-width:1vh;padding:2vw;transform: translate(0%, -50%);top: 50%;" >
           <p>We should focus on how weird bitcoin and ethereum is compared to old tech and how
             they will be different in the future, when compared to old tech. It is almost impossible to try and predict the specifics
