@@ -51,14 +51,13 @@
            </v-flex>
            <video
            muted loop autoplay
-           data-aos="fade-up"
            src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy.mp4"
            alt="Scary Driver" style="top:10vh;width:100vw;height:auto;left:0vw;position:relative;overflow:hidden;"/>
         </v-flex>
 
         <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:100%;background-color: #486E70;">
           <section
-          style="padding:2vw;position;relative;margin-top:2.5%;margin-bottom:2.5%;width:50vw;margin-left:5vw;
+          style="padding:2vw;position;absoblute;margin-top:2.5%;margin-bottom:2.5%;width:50vw;margin-left:5vw;
           font-size:1.4rem;line-height:1.8rem;background-color:white;
           border-style:solid;border-color: rgb(29, 66, 76);border-width: 1vh;" >
           <p><span class="firstcharacter">No!</span>
