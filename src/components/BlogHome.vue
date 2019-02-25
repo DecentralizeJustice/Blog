@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-toolbar>
-      <v-toolbar-title>Multisig Crypto</v-toolbar-title>
+      <v-toolbar-title>Decentralize Justice</v-toolbar-title>
     </v-toolbar>
     <cards/>
   </div>
