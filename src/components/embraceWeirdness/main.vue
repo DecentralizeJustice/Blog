@@ -1,36 +1,9 @@
 <template>
 
     <v-layout align-start row wrap style="overflow:hidden;" xs12 pa-0 ma-0 >
-      <v-flex class="hidden-sm-and-down intro" xs12 style="position:relative;height:101vh;">
-               <v-flex class="title" xs5 offset-xs1 pa-4>
-               <div class="display-4 white--text font-weight-medium" >
-                 Embrace Weirdness
-               </div>
-               <br>
-               <div class="white--text display-1 font-weight-light">
-                 Cryptocurrency feels weird. It should.
-               </div>
-             </v-flex>
-        <img
-        src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
-        alt="Scroll Down"
-        class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
-      </v-flex>
-      <v-flex class="intro hidden-md-and-up xs12" style="position:relative;height:90vh;overflow:hidden;">
-               <v-flex class="title" xs10 offset-xs1 pa-4>
-               <div class="display-3 white--text font-weight-medium" >
-                 Embrace Weirdness
-               </div>
-               <br>
-               <div class="white--text display-1 font-weight-light">
-                 Cryptocurrency feels weird. It should.
-               </div>
-             </v-flex>
-        <img
-        src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
-        alt="Scary Driver"
-        class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
-        </v-flex>
+      <landingPage :title='articleInfo.landingPage.title'
+        :subHeading='articleInfo.landingPage.subHeading'
+        :background='articleInfo.landingPage.background' />
 
         <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:101vh;background-color: rgb(29, 66, 76);">
           <p style="position:relative;top: 10vh;width:61.8%;color: white;text-align:left;left:8%;"
@@ -277,8 +250,19 @@
 </template>
 
 <script>
+import landingPage from '@/components/articleComponents/landingPage.vue'
+import articleInfo from '@/components/embraceWeirdness/data.js'
+
 export default {
-  name: 'embraceWeirdness'
+  name: 'embraceWeirdness',
+  components: {
+    landingPage
+  },
+  data () {
+    return {
+      articleInfo: articleInfo
+    }
+  }
 }
 </script>
 <!-- styling for the component -->
@@ -296,56 +280,4 @@ a {
   padding-right: 8px;
   padding-left: 3px;
 }
-.title{
-  position: relative;
-  top: 15vh;
-  background-color: rgb(29, 66, 76,.9);
-  border-radius: 3%;
-}
-.intro {
-  overflow: hidden;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('https://images.pexels.com/photos/1600757/pexels-photo-1600757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-}
-.bounce {
-   position:absolute;
-   left:50%;
-   bottom:0;
-   margin-top:-25px;
-   margin-left:-25px;
-   height:50px;
-   width:50px;
-   -webkit-animation:bounce 1s infinite;
-   -moz-animation:bounce 1s infinite;
-   -o-animation:bounce 1s infinite;
-   animation:bounce 1s infinite;
-
- }
-
- @-webkit-keyframes bounce {
-   0%       { bottom:0px; }
-   50%      { bottom:15px; }
-   100%     {bottom:30;}
- }
-
-  @-moz-keyframes bounce {
-   0%       { bottom:0px; }
-   50%      { bottom:15px; }
-   100%     {bottom:30;}
- }
-
-  @-o-keyframes bounce {
-   0%       { bottom:0px; }
-   50%      { bottom:15px; }
-   100%     {bottom:30;}
- }
-
-  @keyframes bounce {
-   0%       { bottom:0px; }
-   50%      { bottom:15px; }
-   100%     {bottom:30;}
- }
-
 </style>
