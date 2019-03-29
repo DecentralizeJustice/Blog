@@ -6,28 +6,9 @@
         :background='articleInfo.landingPage.background'
         :color= 'articleInfo.landingPage.color' />
 
-        <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:101vh;background-color: rgb(29, 66, 76);">
-          <p style="position:relative;top: 10vh;width:61.8%;color: white;text-align:left;left:8%;"
-             class="font-weight-black display-3" >
-            Would you take a ride from a driver who learned how to drive from studying and riding bicycles?
-          </p>
-          <video
-          muted loop autoplay
-          data-aos="fade-up"
-          src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy.mp4"
-          alt="Scary Driver" style="top:12vh;position:relative;left:50vw;height:auto;width:40vw;"/>
-        </v-flex>
-        <v-flex xs12 class="hidden-md-and-up" style="position:relative;height:90vh;background-color: rgb(29, 66, 76);">
-           <v-flex   class="justify-center" style="margin: auto; width:90%;">
-             <p  style="position:relative;top:10vh;color:white;text-align:center;" class="display-1">
-               Would you take a ride from a driver who learned how to drive from studying and riding bicycles?
-             </p>
-           </v-flex>
-           <video
-           muted loop autoplay
-           src="https://media.giphy.com/media/l0MYQ2rekCnAE0CQg/giphy.mp4"
-           alt="Scary Driver" style="top:10vh;width:100vw;height:auto;left:0vw;position:relative;overflow:hidden;"/>
-        </v-flex>
+      <titleAndPhoto :title= 'articleInfo._1.title'
+        :photo='articleInfo._1.photo'
+        :backgroundColor='articleInfo.backgroundColor_1'/>
 
         <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:100%;background-color: #486E70;">
           <section
@@ -251,13 +232,14 @@
 </template>
 
 <script>
-import landingPage from '@/components/articleComponents/landingPage.vue'
 import articleInfo from '@/components/embraceWeirdness/data.js'
-
+import landingPage from '@/components/articleComponents/landingPage.vue'
+import titleAndPhoto from '@/components/articleComponents/titleAndPhoto.vue'
 export default {
   name: 'embraceWeirdness',
   components: {
-    landingPage
+    landingPage,
+    titleAndPhoto
   },
   data () {
     return {
