@@ -1,7 +1,7 @@
 <template>
   <div style="width:100vw">
   <v-flex class="hidden-sm-and-down intro" xs12 :style="style">
-           <v-flex class="title" xs5 offset-xs1 pa-4>
+           <v-flex class="title" xs5 offset-xs1 pa-4 :style="styleBackColor" >
            <div class="display-4 white--text font-weight-medium" >
              {{title}}
            </div>
@@ -16,7 +16,7 @@
     class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
   </v-flex>
   <v-flex class="intro hidden-md-and-up xs12" :style="styleMobile">
-           <v-flex class="title" xs10 offset-xs1 pa-4>
+           <v-flex class="title" xs10 offset-xs1 pa-4 :style="styleBackColor">
            <div class="display-3 white--text font-weight-medium" >
              {{title}}
            </div>
@@ -36,7 +36,14 @@
 <script>
 export default {
   name: 'landingPage',
-  props: ['title', 'subHeading', 'background'],
+  props: ['title', 'subHeading', 'background', 'color'],
+  data () {
+    return {
+      styleBackColor: {
+        'background-color': this.color
+      }
+    }
+  },
   computed: {
     style () {
       return 'position:relative;height:101vh; background-image: url(' + this.background + ' )'
@@ -53,7 +60,6 @@ export default {
 .title{
   position: relative;
   top: 15vh;
-  background-color: rgb(29, 66, 76,.9);
   border-radius: 3%;
 }
 .intro {

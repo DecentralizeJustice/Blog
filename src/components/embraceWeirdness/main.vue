@@ -3,7 +3,8 @@
     <v-layout align-start row wrap style="overflow:hidden;" xs12 pa-0 ma-0 >
       <landingPage :title='articleInfo.landingPage.title'
         :subHeading='articleInfo.landingPage.subHeading'
-        :background='articleInfo.landingPage.background' />
+        :background='articleInfo.landingPage.background'
+        :color= 'articleInfo.landingPage.color' />
 
         <v-flex xs12 class="hidden-sm-and-down"  style="position:relative;height:101vh;background-color: rgb(29, 66, 76);">
           <p style="position:relative;top: 10vh;width:61.8%;color: white;text-align:left;left:8%;"
