@@ -18,7 +18,7 @@
     </v-flex>
     <v-flex xs12 class="hidden-md-and-up mobilebackground" :style="styleBackground">
       <section
-      :style="styleBorderColor" class="mobileText" v-html="paragraph">
+      :style="styleBorderColor" class="mobileText firstcharacter" v-html="paragraph">
 
       </section>
     </v-flex>
@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: 'paragraphAnd2PhotoRight',
+  name: 'paragraphAndPhotos',
   props: ['paragraph', 'photos', 'backgroundColor1', 'backgroundColor2'],
   data () {
     return {

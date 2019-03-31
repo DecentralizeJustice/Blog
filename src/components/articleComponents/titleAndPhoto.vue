@@ -1,24 +1,22 @@
 <template>
   <div style="width:100vw">
     <v-flex xs12 class="hidden-sm-and-down"  v-bind:style="style">
-      <p style="position:relative;top: 10vh;width:61.8%;color: white;text-align:left;left:8%;"
-         class="font-weight-black display-3" >
-        {{title}}
-      </p>
-      <video
-      muted loop autoplay
+      <div style="top: 6%;left:5%;width:61.8%;color: white;text-align:left;position:absolute;"
+         class="font-weight-black" v-bind:class="titleClass" v-html="title">
+
+      </div>
+      <img
       data-aos="fade-up"
       :src="photo"
-      style="top:12vh;position:relative;left:50vw;height:auto;width:40vw;"/>
+      style="bottom:4%;right:5%;position:absolute;height:50vh;width:auto;"/>
     </v-flex>
     <v-flex xs12 class="hidden-md-and-up" v-bind:style="styleMobile">
-       <v-flex   class="justify-center" style="margin: auto; width:90%;">
-         <p  style="position:relative;top:10vh;color:white;text-align:center;" class="display-1">
-           {{title}}
+       <v-flex   class="justify-center" style="margin: auto; width:95%;">
+         <p  style="position:relative;top:7vh;color:white;text-align:center;" v-bind:class="titleClassMobile" v-html="title">
+
          </p>
        </v-flex>
-       <video
-       muted loop autoplay
+       <img
        :src="photo"
         style="top:10vh;width:100vw;height:auto;left:0vw;position:relative;overflow:hidden;"/>
     </v-flex>
@@ -33,7 +31,7 @@ export default {
     return {
       style: {
         'position': 'relative',
-        'height': '101vh',
+        'height': '100vh',
         'background-color': this.backgroundColor
       },
       styleMobile: {
@@ -41,6 +39,35 @@ export default {
         'height': '90vh',
         'background-color': this.backgroundColor
       }
+    }
+  },
+  computed: {
+    // a computed getter
+    titleClass: function () {
+      let classes = ''
+      let tlength = this.title.length
+      switch (true) {
+        case (tlength < 100) :
+          classes += 'display-3'
+          break
+        case (tlength < 300) :
+          classes += 'display-2'
+          break
+      }
+      return classes
+    },
+    titleClassMobile: function () {
+      let classes = ''
+      let tlength = this.title.length
+      switch (true) {
+        case (tlength < 100) :
+          classes += 'display-1'
+          break
+        case (tlength < 300) :
+          classes += 'title'
+          break
+      }
+      return classes
     }
   }
 }
