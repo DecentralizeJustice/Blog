@@ -1,5 +1,6 @@
 <template>
   <div style="width:100vw">
+    
     <v-flex xs12 class="hidden-sm-and-down background"  :style="styleBackground">
       <section
       class="firstcharacter first"
@@ -9,19 +10,18 @@
       </section>
       <img data-aos="fade-left"
       :src="photos[0]"
-      style="top:8%;position:absolute;right:8vw;height:auto;width:28vw;"
-      >
-      <img     data-aos="fade-left"
-      :src="photos[1]"
-      style="top:54%;position:absolute;right:8vw;height:auto;width:28vw;"
+      style="position:absolute;right:4.5vw;height:auto;width:35vw;  top: 50%;
+        -ms-transform: translateY(-50%);transform: translateY(-50%);"
       >
     </v-flex>
+
     <v-flex xs12 class="hidden-md-and-up mobilebackground" :style="styleBackground">
       <section
       :style="styleBorderColor" class="mobileText firstcharacter" v-html="paragraph">
 
       </section>
     </v-flex>
+
   </div>
 </template>
 
@@ -53,7 +53,7 @@ export default {
     padding-left: 3px;
 }
 .first {
-  padding:2vw;position:relative;margin-bottom:2.5%;width:50vw;margin-left:5vw;
+  padding:2vw;position:relative;margin-bottom:2.5%;width:50vw;height: auto;margin-left:5vw;
   font-size:1.4rem;line-height:1.8rem;background-color:white;
   border-style:solid;border-width: 1vh;
 }
