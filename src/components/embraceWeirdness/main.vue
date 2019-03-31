@@ -58,13 +58,4 @@ a {
   color: black;
   text-decoration: none; /* no underline */
 }
-.firstcharacter {
-  float: left;
-  font-family: Georgia;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-}
 </style>
