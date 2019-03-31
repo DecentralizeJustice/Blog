@@ -1,17 +1,16 @@
 <template>
   <div style="width:100vw">
-    
+
     <v-flex xs12 class="hidden-sm-and-down background"  :style="styleBackground">
       <section
-      class="firstcharacter first"
+      class="firstcharacter" v-bind:class="paragraphClass"
       :style="styleBorderColor" v-html="paragraph"
       >
 
       </section>
       <img data-aos="fade-left"
       :src="photos[0]"
-      style="position:absolute;right:4.5vw;height:auto;width:35vw;  top: 50%;
-        -ms-transform: translateY(-50%);transform: translateY(-50%);"
+      :style="stylePhoto"
       >
     </v-flex>
 
@@ -28,7 +27,20 @@
 <script>
 export default {
   name: 'paragraphAndPhotos',
-  props: ['paragraph', 'photos', 'backgroundColor1', 'backgroundColor2'],
+  props: {
+    paragraph: String,
+    photos: Array,
+    backgroundColor1: {
+      type: String
+    },
+    backgroundColor2: {
+      type: String
+    },
+    flip: {
+      type: Boolean,
+      default: false
+    }
+  },
   data () {
     return {
       styleBackground: {
@@ -36,7 +48,34 @@ export default {
       },
       styleBorderColor: {
         'border-color': this.backgroundColor1
+      },
+      stylePhoto: {
+        'position': 'absolute',
+        'right': '4.5vw',
+        'height': 'auto',
+        'width': '35vw',
+        'top': '50%',
+        '-ms-transform': 'translateY(-50%)',
+        'transform': 'translateY(-50%)'
+      },
+      stylePhotoFlipped: {
+        'position': 'absolute',
+        'left': '4.5vw',
+        'height': 'auto',
+        'width': '35vw',
+        'top': '50%',
+        '-ms-transform': 'translateY(-50%)',
+        'transform': 'translateY(-50%)'
       }
+    }
+  },
+  computed: {
+    // a computed getter
+    paragraphClass: function () {
+      if (this.flip) {
+        return 'flipped'
+      }
+      return 'norm'
     }
   }
 }
@@ -52,8 +91,13 @@ export default {
     padding-right: 8px;
     padding-left: 3px;
 }
-.first {
+.norm {
   padding:2vw;position:relative;margin-bottom:2.5%;width:50vw;height: auto;margin-left:5vw;
+  font-size:1.4rem;line-height:1.8rem;background-color:white;
+  border-style:solid;border-width: 1vh;
+}
+.flipped {
+  padding:2vw;position:relative;margin-bottom:2.5%;width:50vw;height: auto;margin-left:45vw;
   font-size:1.4rem;line-height:1.8rem;background-color:white;
   border-style:solid;border-width: 1vh;
 }

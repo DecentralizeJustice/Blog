@@ -27,7 +27,8 @@
       <paragraphAndPhotos :paragraph='articleInfo._5.paragraph'
       :photos='articleInfo._5.photos'
       :backgroundColor1 ='articleInfo.backgroundColor_2'
-      :backgroundColor2 ='articleInfo.backgroundColor_1'/>
+      :backgroundColor2 ='articleInfo.backgroundColor_1'
+      :flip ='true'/>
 
     </v-layout >
 
