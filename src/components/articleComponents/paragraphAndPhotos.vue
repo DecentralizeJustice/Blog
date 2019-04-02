@@ -10,7 +10,7 @@
       </section>
       <img data-aos="fade-left"
       :src="photos[0]"
-      :style="stylePhoto"
+      :style="photoClass"
       >
     </v-flex>
 
@@ -19,6 +19,10 @@
       :style="styleBorderColor" class="mobileText firstcharacter" v-html="paragraph">
 
       </section>
+      <img data-aos="fade-left"
+      :src="photos[0]"
+      class="mobilePhoto"
+      >
     </v-flex>
 
   </div>
@@ -47,7 +51,8 @@ export default {
         'background-color': this.backgroundColor2
       },
       styleBorderColor: {
-        'border-color': this.backgroundColor1
+        'border-color': this.backgroundColor1,
+        'margin-bottom': '2%'
       },
       stylePhoto: {
         'position': 'absolute',
@@ -76,6 +81,12 @@ export default {
         return 'flipped'
       }
       return 'norm'
+    },
+    photoClass: function () {
+      if (this.flip) {
+        return this.stylePhotoFlipped
+      }
+      return this.stylePhoto
     }
   }
 }
@@ -95,6 +106,9 @@ export default {
   padding:2vw;position:relative;margin-bottom:2.5%;width:50vw;height: auto;margin-left:5vw;
   font-size:1.4rem;line-height:1.8rem;background-color:white;
   border-style:solid;border-width: 1vh;
+}
+.mobilePhoto {
+  position:relative;bottom:2%;width:100vw;height: auto;
 }
 .flipped {
   padding:2vw;position:relative;margin-bottom:2.5%;width:50vw;height: auto;margin-left:45vw;

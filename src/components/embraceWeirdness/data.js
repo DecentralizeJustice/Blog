@@ -6,7 +6,7 @@ const articleInfo = {
   'backgroundColor_2': '#486E70',
   'landingPage': { 'title': 'Embrace Weirdness',
     'subHeading': 'Cryptocurrency feels weird. It should.',
-    'background': 'https://images.pexels.com/photos/1600757/pexels-photo-1600757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    'background': 'https://res.cloudinary.com/dylevfpbl/image/upload/v1554165921/decenblog/embrace/drivemain.jpg',
     'color': 'rgb(29, 66, 76,.9)' },
   '_1': { 'title': 'Would you take a ride from a driver who learned how to drive from studying and riding bicycles?',
     'photo': 'https://res.cloudinary.com/dylevfpbl/image/upload/v1554010459/decenblog/embrace/car.jpg' },
@@ -16,7 +16,7 @@ const articleInfo = {
           Only if what I tell you appears absolutely unreasonable have we any chance of visualizing
           the future as it really will happen. <br>  - Arthur C. Clarke`,
   // eslint-disable-next-line
-    'photo': 'https://cdn.pixabay.com/photo/2018/04/01/02/20/future-3279838_960_720.jpg' },
+    'photo': 'https://res.cloudinary.com/dylevfpbl/image/upload/v1554165821/decenblog/embrace/future.jpg' },
   '_4': { 'paragraph': paragraph2,
     'photos': ['https://res.cloudinary.com/dylevfpbl/image/upload/v1554011377/decenblog/embrace/black_future.jpg'] },
   '_5': { 'paragraph': paragraph3,
