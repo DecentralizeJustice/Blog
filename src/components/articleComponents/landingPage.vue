@@ -2,7 +2,7 @@
   <div style="width:100vw">
   <v-flex class="hidden-sm-and-down intro" xs12 :style="style">
            <v-flex class="title" xs5 offset-xs1 pa-4 :style="styleBackColor" >
-           <div class="display-4 white--text font-weight-medium" >
+           <div class="display-4 white--text font-weight-medium text-xs-center" >
              {{title}}
            </div>
            <br>
@@ -11,7 +11,7 @@
            </div>
          </v-flex>
     <img
-    src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
+    src="https://res.cloudinary.com/dylevfpbl/image/upload/v1554347922/decenblog/scroll-down-icon.png"
     alt="Scroll Down"
     class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
   </v-flex>
@@ -26,8 +26,8 @@
            </div>
          </v-flex>
     <img
-    src="https://www.noosaboathouse.com.au/wp-content/uploads/2015/11/scroll-down-icon.png"
-    alt="Scary Driver"
+    src="https://res.cloudinary.com/dylevfpbl/image/upload/v1554347922/decenblog/scroll-down-icon.png"
+    alt="Scroll Down"
     class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
     </v-flex>
   </div>
