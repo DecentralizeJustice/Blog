@@ -5,7 +5,7 @@ const articleInfo = {
   'backgroundColor_1': '#C33903',
   'backgroundColor_2': '#303030',
   'landingPage': { 'title': 'Power With The People',
-    'subHeading': 'Cypherpunk and Black Panther principles used to imagine a better future.',
+    'subHeading': 'Injecting Black Radical Traditions into the Cypherpunk Culture.',
     'background': 'https://res.cloudinary.com/dylevfpbl/image/upload/v1554357854/decenblog/empower/protest_2.jpg',
     'color': 'rgb(195, 58, 3,.92)' },
   '_1': { 'title': 'Would you take a ride from a driver who learned how to drive from studying and riding bicycles?',
