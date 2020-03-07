@@ -1,8 +1,8 @@
 <template>
   <v-app>
     <v-app-bar
-      dark
-      app
+      dark app
+      absolute
     >
       <div class="d-flex align-center">
         <v-img
