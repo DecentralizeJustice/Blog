@@ -55,22 +55,22 @@ export default {
         'margin-bottom': '2%'
       },
       stylePhoto: {
-        'position': 'absolute',
-        'right': '4.5vw',
-        'height': 'auto',
-        'width': '35vw',
-        'top': '50%',
+        position: 'absolute',
+        right: '4.5vw',
+        height: 'auto',
+        width: '35vw',
+        top: '50%',
         '-ms-transform': 'translateY(-50%)',
-        'transform': 'translateY(-50%)'
+        transform: 'translateY(-50%)'
       },
       stylePhotoFlipped: {
-        'position': 'absolute',
-        'left': '4.5vw',
-        'height': 'auto',
-        'width': '35vw',
-        'top': '50%',
+        position: 'absolute',
+        left: '4.5vw',
+        height: 'auto',
+        width: '35vw',
+        top: '50%',
         '-ms-transform': 'translateY(-50%)',
-        'transform': 'translateY(-50%)'
+        transform: 'translateY(-50%)'
       }
     }
   },

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
+    "apollo-client": "^2.6.8",
     "vue": "^2.6.11",
     "vue-apollo": "^3.0.3",
     "vue-router": "^3.1.6",
@@ -18,16 +19,28 @@
     "@vue/cli-plugin-babel": "^4.2.3",
     "@vue/cli-plugin-eslint": "^4.2.3",
     "@vue/cli-service": "^4.2.3",
+    "@vue/cli-shared-utils": "^4.2.3",
     "@vue/eslint-config-standard": "^5.1.2",
+    "apollo-link": "^1.2.13",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
+    "eslint-plugin-graphql": "^3.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^6.2.1",
+    "graphql": "^14.6.0",
     "graphql-tag": "^2.10.3",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.1",
+    "typescript": "^3.8.3",
     "vue-cli-plugin-apollo": "^0.21.3",
-    "vue-cli-plugin-vuetify": "^2.0.5",
+    "vue-cli-plugin-vuetify": "~2.0.5",
     "vue-template-compiler": "^2.6.11",
-    "vuetify-loader": "^1.4.3"
+    "vuetify-loader": "^1.4.3",
+    "webpack": "^4.42.0"
   }
 }

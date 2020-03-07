@@ -30,13 +30,13 @@ export default {
   data () {
     return {
       style: {
-        'position': 'relative',
-        'height': '100vh',
+        position: 'relative',
+        height: '100vh',
         'background-color': this.backgroundColor
       },
       styleMobile: {
-        'position': 'relative',
-        'height': '90vh',
+        position: 'relative',
+        height: '90vh',
         'background-color': this.backgroundColor
       }
     }
@@ -45,7 +45,7 @@ export default {
     // a computed getter
     titleClass: function () {
       let classes = ''
-      let tlength = this.title.length
+      const tlength = this.title.length
       switch (true) {
         case (tlength < 100) :
           classes += 'display-3'
@@ -58,7 +58,7 @@ export default {
     },
     titleClassMobile: function () {
       let classes = ''
-      let tlength = this.title.length
+      const tlength = this.title.length
       switch (true) {
         case (tlength < 100) :
           classes += 'display-1'

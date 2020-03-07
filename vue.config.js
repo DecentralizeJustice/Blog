@@ -1,6 +1,11 @@
-// vue.config.js
 module.exports = {
-  // options...
-  publicPath: '/blog/'
-
+  publicPath: '/blog/',
+  pluginOptions: {
+    apollo: {
+      lintGQL: true
+    }
+  },
+  transpileDependencies: [
+    'vuetify'
+  ]
 }

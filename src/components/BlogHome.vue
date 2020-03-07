@@ -1,10 +1,5 @@
 <template>
-  <div>
-    <v-toolbar>
-      <v-toolbar-title>Decentralize Justice</v-toolbar-title>
-    </v-toolbar>
     <cards/>
-  </div>
 </template>
 
 <script>

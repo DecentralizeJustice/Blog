@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import './plugins/vuetify'
+import vuetify from './plugins/vuetify'
 import App from './App.vue'
 import router from './router'
 import { createProvider } from './vue-apollo'
@@ -12,7 +12,9 @@ new Vue({
   created () {
     AOS.init({ })
   },
+
   router,
   apolloProvider: createProvider(),
+  vuetify,
   render: h => h(App)
 }).$mount('#app')
