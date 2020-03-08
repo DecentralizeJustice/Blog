@@ -119,6 +119,7 @@ export default {
   position: relative;
   height: 100%;
   padding-top: 2.5%;
+  padding-bottom: 1%;
 }
 .mobilebackground{
   position:relative;
