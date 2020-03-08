@@ -1,5 +1,7 @@
 <template>
+  <v-flex class="back" xs12>
     <cards/>
+  </v-flex>
 </template>
 
 <script>
@@ -13,5 +15,8 @@ export default {
 </script>
 
 <style scoped>
-
+.back {
+  background-color: rgba(30, 102, 102);
+  height:100%;
+}
 </style>

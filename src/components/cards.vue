@@ -1,6 +1,6 @@
 <template>
 
-  <v-layout align-start row wrap v-if="posts != undefined" mt-2>
+  <v-layout align-start row wrap v-if="posts != undefined" pt-2 >
     <v-flex v-for="post in posts" :key="post.id" xs10 md3 mt-1 mb-1  offset-xs1 class="cardSpace">
       <router-link :to= "post.routerlink">
            <v-card
@@ -33,18 +33,24 @@ export default {
   name: 'cards',
   apollo: {
     posts: gql`{
-      posts(orderBy: createdAt_DESC){
+      posts(
+        where: { status: PUBLISHED }
+        orderBy: updatedAt_DESC,
+      ){
         coverPhoto {url}
         title,
         routerlink
+        status
       }
     }`
   },
   data () {
     return {
-      tests: ''
     }
   }
+  // updated () {
+  //   console.log(this.posts) // I'm text inside the component.
+  // }
 }
 </script>
 
@@ -61,4 +67,5 @@ a {
   color: none;
   text-decoration: none; /* no underline */
 }
+
 </style>

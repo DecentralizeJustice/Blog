@@ -46,7 +46,7 @@ export default {
   },
   computed: {
     style () {
-      return 'position:relative;height:101vh; background-image: url(' + this.background + ' )'
+      return 'position:relative;height:90vh; background-image: url(' + this.background + ' )'
     },
     styleMobile () {
       return 'position:relative;height:90vh;overflow:hidden; background-image: url(' + this.background + ' )'
