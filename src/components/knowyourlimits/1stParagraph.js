@@ -1,26 +1,6 @@
 const paragraph1 =
-`<p><span class='firstcharacter'>No!</span>
-would  hopefully be your answer. You should say no because your driver
-probably isn't good at drvivng.This is because they made a connections and skills based on similarities that don’t really matter.
-In this example it is comically clear that this driver does
-not understand how to drive well. Cars and bikes share some similarities, but cars
- were an innovative technology compared to bikes,
-so drawing similarities between the two technologies isn’t really useful and can be dangerous. 
-When I made this mistake,but with cryptocurrencies, it wasn't as comical or dangerous though.</p>
-
-When I first started learning about cryptocurrencies I wanted to understand everything about them.
-I wanted to know what types there were,how they worked, how I could get involved, and most importantly,
-what they would look like in the future. In order to learn about the
-future of  cryptocurrencies, I decided to look to the past for guidance and since the internet and
-cryptocurrencies seemed similar I decided
-to study the history of the internet in order to learn more about how cryptocurrencies might grow
-and evolve in the future. At the time
-this made perfect sense to me, since we are taught that history is a great tool for learning about the
-future. This didn’t really help me
-learn anything about cryptocurrencies, although the history of the internet is a great thing to know about.
-My mistake was years ago, and
-I know why my plan to predict the
-future of crypto didn't work; Drawing similarities between innovative technologies doesn't work because
-of the weird nature humanity and innovation.`
+`<p>Making decisions about cryptocurrencies can be really hard. You read many people on twitter saying bitcoin is the only true crypto and all other coins are just trash. You see other people say that bitcoin is outdated and alt-coins are the future. This isn’t just on twitter ,but on reddit, youtube, facebook and any other medium you can imagine. It’s hard to tell what cryptocurrency to even buy,  and this article won’t help with that. Sorry. But it will help you keep whatever crypto you choose to hodl.</p>
+Regardless of whatever crypto that you choose to use you have to store it. Your crypto can be stolen or lost. If you store your crypto correctly though you can minimize your risk. Here are the guidelines for storing your crypto, depending on how much you have and how you want to use your crypto. 
+`
 
 export default paragraph1

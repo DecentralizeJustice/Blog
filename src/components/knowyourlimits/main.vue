@@ -6,23 +6,14 @@
         :background='articleInfo.landingPage.background'
         :color= 'articleInfo.landingPage.color' />
 
-      <titleAndPhoto :title= 'articleInfo._1.title'
-        :photo='articleInfo._1.photo'
-        :backgroundColor='articleInfo.backgroundColor_1'/>
-
-      <paragraphAndPhotos :paragraph='articleInfo._2.paragraph'
-      :photos='articleInfo._2.photos'
+      <paragraph :paragraph='articleInfo._2.paragraph'
       :backgroundColor1 ='articleInfo.backgroundColor_1'
       :backgroundColor2 ='articleInfo.backgroundColor_2'/>
-
-      <titleAndPhoto :title= 'articleInfo._3.title'
-        :photo='articleInfo._3.photo'
-        :backgroundColor='articleInfo.backgroundColor_1'/>
 
       <paragraphAndPhotos :paragraph='articleInfo._4.paragraph'
       :photos='articleInfo._4.photos'
-      :backgroundColor1 ='articleInfo.backgroundColor_1'
-      :backgroundColor2 ='articleInfo.backgroundColor_2'/>
+      :backgroundColor2 ='articleInfo.backgroundColor_1'
+      :backgroundColor1 ='articleInfo.backgroundColor_2'/>
 
       <paragraphAndPhotos :paragraph='articleInfo._5.paragraph'
       :photos='articleInfo._5.photos'
@@ -37,13 +28,15 @@
 <script>
 import articleInfo from '@/components/knowyourlimits/data.js'
 import landingPage from '@/components/articleComponents/landingPage.vue'
-import titleAndPhoto from '@/components/articleComponents/titleAndPhoto.vue'
+// import titleAndPhoto from '@/components/articleComponents/titleAndPhoto.vue'
 import paragraphAndPhotos from '@/components/articleComponents/paragraphAndPhotos.vue'
+import paragraph from '@/components/articleComponents/paragraph.vue'
 export default {
   name: 'embraceWeirdness',
   components: {
     landingPage,
-    titleAndPhoto,
+    paragraph,
+    // titleAndPhoto,
     paragraphAndPhotos
   },
   data () {
