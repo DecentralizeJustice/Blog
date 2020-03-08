@@ -1,12 +1,13 @@
 <template>
   <v-app>
     <v-app-bar
-      dark app
+      dark
+      app
       absolute
     >
       <div class="d-flex align-center">
         <v-img
-          alt="Guiding Wallet Logo"
+          alt="Vuetify Logo"
           class="shrink mr-2"
           contain
           src="https://res.cloudinary.com/dylevfpbl/image/upload/v1579591613/landingpage/croppedCoin.png"
@@ -19,15 +20,21 @@
       </div>
 
       <v-spacer></v-spacer>
-
+      <div>
       <v-btn
-        href="https://github.com/DecentralizeJustice/GuideWallet-DesktopApp"
-        target="_blank"
         text
+        href="https://guidingwallet.app"
       >
-        <span class="mr-2">Github</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        <span class="mr-2">Home</span>
+        <v-icon>mdi-home</v-icon>
       </v-btn>
+      <v-btn
+        depressed color="grey darken-2"
+      >
+        <span class="mr-2">Blog</span>
+        <v-icon>mdi-book-open-outline</v-icon>
+      </v-btn>
+    </div>
     </v-app-bar>
 
     <v-content>
