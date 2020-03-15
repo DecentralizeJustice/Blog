@@ -2,19 +2,25 @@
   <div style="width:100vw">
 
     <v-flex xs12 class="hidden-sm-and-down background"  :style="styleBackground">
-      <section
-      class="firstcharacter norm"
-      :style="styleBorderColor" v-html="paragraph"
+      <div class="norm"
+      :style="styleBorderColor">
+      <h2 class="customTitle text-center  mb-3">{{title}}</h2>
+      <section class="firstcharacter"
+       v-html="paragraph"
       >
-
       </section>
+      </div>
+
     </v-flex>
 
     <v-flex xs12 class="hidden-md-and-up mobilebackground" :style="styleBackground">
+      <div class="mobileText "
+      :style="styleBorderColor">
+      <h2 class="customTitle text-center  mb-3">{{title}}</h2>
       <section
-      :style="styleBorderColor" class="mobileText firstcharacter" v-html="paragraph">
-
+      :style="styleBorderColor" class="firstcharacter" v-html="paragraph">
       </section>
+      </div>
     </v-flex>
 
   </div>
@@ -25,6 +31,10 @@ export default {
   name: 'paragraph',
   props: {
     paragraph: String,
+    title: {
+      type: String,
+      default: ''
+    },
     backgroundColor1: {
       type: String
     },
@@ -49,6 +59,9 @@ export default {
 </script>
 
 <style scoped>
+.customTitle{
+  text-decoration: underline;
+}
 .firstcharacter  >>> span {
     float: left;
     font-family: Georgia;
