@@ -20,22 +20,55 @@
       </div>
 
       <v-spacer></v-spacer>
-      <div>
+      <v-app-bar-nav-icon class="hidden-md-and-up"
+      @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+
       <v-btn
-        text
-        href="https://guidingwallet.app"
+        :color='item.color'
+        v-bind:class="[buttonObject]"
+        v-for="item in opts"
+          :key="`${item.title}`"
+        :href='item.link'
       >
-        <span class="mr-2">Home</span>
-        <v-icon>mdi-home</v-icon>
+        <span class="">{{item.title}}</span>
+        <v-icon right>mdi-{{item.icon}}</v-icon>
       </v-btn>
-      <v-btn
-        depressed color="grey darken-2"
-      >
-        <span class="mr-2">Blog</span>
-        <v-icon>mdi-book-open-outline</v-icon>
-      </v-btn>
-    </div>
+
     </v-app-bar>
+    <v-navigation-drawer
+      app
+      v-model="drawer"
+      absolute
+      temporary
+      dark
+    >
+      <template v-slot:prepend >
+        <v-list>
+          <v-list-item
+            one-line
+          >
+            <v-list-item-content>
+              <v-list-item-title class="title">Guiding Wallet</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list>
+      </template>
+      <v-divider></v-divider>
+      <v-list
+        nav
+        dense
+      >
+        <v-list-item link v-for="item in opts"
+          :key="`${item.icon}`"
+          :href='item.link'
+        >
+          <v-list-item-icon >
+            <v-icon>mdi-{{item.icon}}</v-icon>
+          </v-list-item-icon>
+          <v-list-item-title>{{item.title}}</v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
 
     <v-content>
       <router-view/>
@@ -45,9 +78,14 @@
 <script>
 export default {
   name: 'App',
-
   data: () => ({
-    //
+    buttonObject: 'hidden-sm-and-down mr-2',
+    drawer: null,
+    opts: [
+      { title: 'Home', icon: 'home', link: 'https://guidingwallet.app' },
+      { title: 'Blog', icon: 'book-open-outline', color: 'grey darken-2', link: '' },
+      { title: 'Download', icon: 'download', link: 'https://guidingwallet.app#Download' }
+    ]
   })
 }
 </script>

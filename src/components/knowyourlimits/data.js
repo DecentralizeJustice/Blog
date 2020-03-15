@@ -10,10 +10,14 @@ const articleInfo = {
     background: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1554165921/decenblog/embrace/drivemain.jpg',
     color: 'rgb(29, 66, 76,.9)'
   },
-  _2: {
+  _1: {
     paragraph: paragraph1,
     photos: ['https://res.cloudinary.com/dylevfpbl/image/upload/v1554359836/decenblog/embrace/study.jpg']
   },
+  _2: {
+    title: 'Convience vs Security',
+    // eslint-disable-next-line
+    'photo': 'https://res.cloudinary.com/dylevfpbl/image/upload/v1554165821/decenblog/embrace/future.jpg' },
   _4: {
     paragraph: paragraph2,
     photos: ['https://res.cloudinary.com/dylevfpbl/image/upload/v1554011377/decenblog/embrace/black_future.jpg']
