@@ -5,7 +5,7 @@
       <router-link :to= "post.routerlink">
            <v-card
              class="mx-auto"
-             color="black"
+             color="grey darken-4"
            >
            <v-img
              :aspect-ratio="9/12"
@@ -16,7 +16,7 @@
              class="pt-4"
              style="position: relative;"
            >
-             <h3 class="display-1 font-weight-light orange--text mb-2 " >
+             <h3 class="display-1 font-weight-light white--text mb-2 text-center" >
                {{ post.title }}
              </h3>
           </v-card-text>

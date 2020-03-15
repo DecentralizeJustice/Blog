@@ -1,5 +1,5 @@
 const paragraph3 =
-`<p>Alright I saw an crypto clock online and I want to buy it with crypto. This isn’t really play money any more since I would be mad if I lost my money and couldn’t get the clock. For making small purchases you should upgrade to a dedicated desktop or phone app. A phone app is prefered to a desktop app but just use whichever you have. Don’t buy anything yet. For me this amount is around 50 to 200. 
+`<p>This is your intro to crypto. You just want to play around with it and maybe buy something. You should use whatever device with an app that you have. Phones are the best. Computers are ok. Whatever you do at this point, store your own crypto with an app on your device. Do not store your crypto on an exchange or online wallet. Software alone isn’t that secure. Until you upgrade to the next tier, software on your phone or computer is the best that you have. 
 </p>
 `
 

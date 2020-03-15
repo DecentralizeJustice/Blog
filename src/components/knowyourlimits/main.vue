@@ -7,13 +7,8 @@
         :color= 'articleInfo.landingPage.color' />
 
       <paragraph :paragraph='articleInfo._1.paragraph'
-      :backgroundColor1 ='articleInfo.backgroundColor_1'
-      :backgroundColor2 ='articleInfo.backgroundColor_2'/>
-
-      <paragraph :paragraph='articleInfo._2.paragraph'
       :backgroundColor1 ='articleInfo.backgroundColor_2'
-      :backgroundColor2 ='articleInfo.backgroundColor_1'
-      :title='articleInfo._2.title'/>
+      :backgroundColor2 ='articleInfo.backgroundColor_1'/>
 
       <paragraph :paragraph='articleInfo._3.paragraph'
       :backgroundColor1 ='articleInfo.backgroundColor_1'
