@@ -12,7 +12,6 @@
       >
       <v-card
     class="mx-auto mb-5"
-    max-width="30vw"
   >
     <v-card-text justify='center' align='center'>
       <div class="display-1 text--primary">Crypto Amount (USD):</div>
@@ -61,6 +60,7 @@
             black--text
             align='center'
             justify='center'
+            class="pa-2"
           >
             <div class="display-1 mt-3 mb-3">Use App On Phone or Laptop</div>
             <v-row
@@ -70,7 +70,7 @@
                 justify='center'
               >
                 <v-col
-                cols='8'
+                cols='12'
                 md='4'
                 >
                   <v-card
@@ -82,7 +82,7 @@
                   </v-card>
                 </v-col>
                 <v-col
-                cols='8'
+                cols='12'
                 md='4'
                 >
                   <v-card
@@ -95,7 +95,7 @@
                   </v-card>
                 </v-col>
                 <v-col
-                cols='8'
+                cols='12'
                 md='6'
                 class="pa-4"
                 >
@@ -109,6 +109,7 @@
             black--text
             align='center'
             justify='center'
+            class="pa-2"
           >
             <div class="display-1 mt-3 mb-3">Use Hardware Wallet</div>
             <v-row
@@ -118,7 +119,7 @@
                 justify='center'
               >
                 <v-col
-                cols='8'
+                cols='12'
                 md='4'
                 >
                   <v-card
@@ -131,7 +132,7 @@
                   </v-card>
                 </v-col>
                 <v-col
-                cols='8'
+                cols='12'
                 md='4'
                 >
                   <v-card
@@ -139,7 +140,7 @@
                     flat
                     tile
                   >
-                  <v-card-title class="justify-center headline">Luxury (152 USD)</v-card-title>
+                  <v-card-title class="justify-center headline" >Luxury (152 USD)</v-card-title>
                     <v-btn :color="backColor1" href="https://www.amazon.com/Trezor-T-Model/dp/B07B8Q2G3K"
                     target="_blank">Trezor Model T</v-btn>
                   </v-card>
@@ -158,6 +159,7 @@
             black--text
             align='center'
             justify='center'
+            class="pa-2"
           >
             <div class="display-1 mt-3">Hardware Wallet Multisig</div>
             <div class="subtitle-1 mb-3">Electrum (Bitcoin Only)</div>
@@ -171,7 +173,7 @@
                 justify='center'
               >
                 <v-col
-                cols='8'
+                cols='12'
                 md='4'
                 >
                   <v-card
@@ -184,7 +186,7 @@
                   </v-card>
                 </v-col>
                 <v-col
-                cols='8'
+                cols='12'
                 md='4'
                 >
                   <v-card
@@ -217,7 +219,9 @@
                 class="pa-4"
                 >
                 <a href="https://electrum.readthedocs.io/en/latest/multisig.html"
-                target="_blank"><div class="display-4 mb-3" >Electrum</div></a>
+                target="_blank"><div  :class="{'display-3 mb-3': $vuetify.breakpoint.smAndDown,
+                'display-4 mb-3': $vuetify.breakpoint.mdAndUp}" >
+                  Electrum</div></a>
                 </v-col>
               </v-row>
           </v-tab-item>
@@ -228,7 +232,6 @@
             justify='center'
           >
             <div class="display-1 mt-3">Multisig Multi-Location</div>
-            <div class="subtitle-1 mb-3">Casa Keymaster</div>
             <v-row
                 no-gutters
                 style=""
@@ -240,7 +243,9 @@
                 class="pa-4"
                 >
                 <a href="https://keys.casa/keymaster/"
-                target="_blank"><div class="display-4 mb-3" >Casa Keymaster</div></a>
+                target="_blank"><div :class="{'display-3 mb-3': $vuetify.breakpoint.smAndDown,
+                'display-4 mb-3': $vuetify.breakpoint.mdAndUp}"
+                >Casa Keymaster</div></a>
                 </v-col>
               </v-row>
           </v-tab-item>

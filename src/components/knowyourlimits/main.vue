@@ -43,7 +43,6 @@
 import articleInfo from '@/components/knowyourlimits/data.js'
 import landingPage from '@/components/articleComponents/landingPage.vue'
 import tool from '@/components/articleComponents/custom/knowyourlimits.vue'
-// import paragraphAndPhotos from '@/components/articleComponents/paragraphAndPhotos.vue'
 import paragraph from '@/components/articleComponents/paragraph.vue'
 export default {
   name: 'embraceWeirdness',
