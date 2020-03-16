@@ -33,20 +33,24 @@
       <paragraph :paragraph='articleInfo._7.paragraph'
       :backgroundColor1 ='articleInfo.backgroundColor_1'
       :backgroundColor2 ='articleInfo.backgroundColor_2'/>
-    </v-layout >
 
+      <tool :backColor ='articleInfo.backgroundColor_1'
+        :backColor1='articleInfo.backgroundColor_2'/>
+    </v-layout >
 </template>
 
 <script>
 import articleInfo from '@/components/knowyourlimits/data.js'
 import landingPage from '@/components/articleComponents/landingPage.vue'
+import tool from '@/components/articleComponents/custom/knowyourlimits.vue'
 // import paragraphAndPhotos from '@/components/articleComponents/paragraphAndPhotos.vue'
 import paragraph from '@/components/articleComponents/paragraph.vue'
 export default {
   name: 'embraceWeirdness',
   components: {
     landingPage,
-    paragraph
+    paragraph,
+    tool
   },
   data () {
     return {

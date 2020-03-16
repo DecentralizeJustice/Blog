@@ -9,7 +9,7 @@ const articleInfo = {
   backgroundColor_2: '#486E70',
   landingPage: {
     title: 'Know Your Limits',
-    subHeading: "Be smart with you'r Crypto. Follow these crypto limits.",
+    subHeading: 'Be smart with your Crypto. Follow these crypto limits.',
     background: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1554165921/decenblog/embrace/drivemain.jpg',
     color: 'rgb(29, 66, 76,.9)'
   },
