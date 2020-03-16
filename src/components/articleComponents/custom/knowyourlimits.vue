@@ -4,7 +4,7 @@
       no-gutters
       justify='center'
       align='center'
-      style="width:100vw;height:90vh;"
+      style="width:100vw;min-height:90vh;"
     >
       <v-col
       cols='12'
@@ -62,9 +62,6 @@
             align='center'
             justify='center'
           >
-            <!-- <v-card black--text>
-              <v-card-text>Hi</v-card-text>
-            </v-card> -->
             <div class="display-1 mt-3 mb-3">Use App On Phone or Laptop</div>
             <v-row
                 no-gutters
@@ -73,7 +70,8 @@
                 justify='center'
               >
                 <v-col
-                cols='4'
+                cols='8'
+                md='4'
                 >
                   <v-card
                     class="text-center"
@@ -84,7 +82,8 @@
                   </v-card>
                 </v-col>
                 <v-col
-                cols='4'
+                cols='8'
+                md='4'
                 >
                   <v-card
                     class=""
@@ -96,7 +95,8 @@
                   </v-card>
                 </v-col>
                 <v-col
-                cols='6'
+                cols='8'
+                md='6'
                 class="pa-4"
                 >
                 <v-img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1584341868/decenblog/limits/Exodus_logo_dark.svg" ></v-img>
@@ -118,7 +118,8 @@
                 justify='center'
               >
                 <v-col
-                cols='4'
+                cols='8'
+                md='4'
                 >
                   <v-card
                     class="text-center"
@@ -130,7 +131,8 @@
                   </v-card>
                 </v-col>
                 <v-col
-                cols='4'
+                cols='8'
+                md='4'
                 >
                   <v-card
                     class=""
@@ -143,7 +145,8 @@
                   </v-card>
                 </v-col>
                 <v-col
-                cols='6'
+                cols='8'
+                md='6'
                 class="pa-4"
                 >
                 <v-img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1584342984/decenblog/limits/trezor.svg" ></v-img>
@@ -168,7 +171,8 @@
                 justify='center'
               >
                 <v-col
-                cols='4'
+                cols='8'
+                md='4'
                 >
                   <v-card
                     class="text-center"
@@ -180,7 +184,8 @@
                   </v-card>
                 </v-col>
                 <v-col
-                cols='4'
+                cols='8'
+                md='4'
                 >
                   <v-card
                     class=""
@@ -193,7 +198,8 @@
                   </v-card>
                 </v-col>
                 <v-col
-                cols='4'
+                cols='8'
+                md='4'
                 >
                   <v-card
                     class=""
@@ -206,7 +212,8 @@
                   </v-card>
                 </v-col>
                 <v-col
-                cols='6'
+                cols='12'
+                md='8'
                 class="pa-4"
                 >
                 <a href="https://electrum.readthedocs.io/en/latest/multisig.html"
