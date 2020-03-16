@@ -223,6 +223,13 @@
                 'display-4 mb-3': $vuetify.breakpoint.mdAndUp}" >
                   Electrum</div></a>
                 </v-col>
+                <v-col
+                cols='12'
+                md='12'
+                >
+                    <v-btn :color="backColor1" href="https://electrum.readthedocs.io/en/latest/multisig.html"
+                    target="_blank">Electrum Multisig</v-btn>
+                </v-col>
               </v-row>
           </v-tab-item>
           <v-tab-item
@@ -246,6 +253,13 @@
                 target="_blank"><div :class="{'display-3 mb-3': $vuetify.breakpoint.smAndDown,
                 'display-4 mb-3': $vuetify.breakpoint.mdAndUp}"
                 >Casa Keymaster</div></a>
+                </v-col>
+                <v-col
+                cols='12'
+                md='12'
+                >
+                    <v-btn :color="backColor1" href="https://keys.casa/keymaster/"
+                    target="_blank">Casa Keymaster</v-btn>
                 </v-col>
               </v-row>
           </v-tab-item>
