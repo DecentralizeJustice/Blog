@@ -16,6 +16,11 @@ const articleInfo = {
   _1: {
     paragraph: paragraph1
   },
+  _2: {
+    title: `Like Cash, you don't keep your entire net worth in your pocket, 
+    you keep walking around money for incidental expenses. <br>  - Satoshi Nakomoto`,
+    // eslint-disable-next-line
+    'photo': 'https://res.cloudinary.com/dylevfpbl/image/upload/v1584386015/decenblog/limits/person-holding-100-us-dollar-banknote-928188.jpg' },
   _3: {
     paragraph: paragraph3,
     title: 'Whatever You Have: 130 USD Limit'

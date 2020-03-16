@@ -2,7 +2,7 @@
   <div style="width:100vw">
     <v-flex xs12 class="hidden-sm-and-down"  v-bind:style="style">
       <div style="top: 6%;left:5%;width:61.8%;color: white;text-align:left;position:absolute;"
-         class="font-weight-black" v-bind:class="titleClass" v-html="title">
+         class="font-weight-bold" v-bind:class="titleClass" v-html="title">
 
       </div>
       <img
@@ -17,6 +17,7 @@
          </p>
        </v-flex>
        <img
+       class="pa-3"
        :src="photo"
         style="top:10vh;width:100vw;height:auto;left:0vw;position:relative;overflow:hidden;"/>
     </v-flex>
@@ -26,7 +27,7 @@
 <script>
 export default {
   name: 'titleandPhoto',
-  props: ['title', 'photo', 'backgroundColor'],
+  props: ['title', 'photo', 'backgroundColor', 'size'],
   data () {
     return {
       style: {
@@ -44,16 +45,8 @@ export default {
   computed: {
     // a computed getter
     titleClass: function () {
-      let classes = ''
-      const tlength = this.title.length
-      switch (true) {
-        case (tlength < 100) :
-          classes += 'display-3'
-          break
-        case (tlength < 300) :
-          classes += 'display-2'
-          break
-      }
+      let classes = 'display-'
+      classes += this.size
       return classes
     },
     titleClassMobile: function () {
