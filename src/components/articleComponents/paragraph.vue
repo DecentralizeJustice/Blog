@@ -60,7 +60,7 @@ export default {
 
 <style scoped>
 .customTitle{
-  text-decoration: underline;
+
 }
 .firstcharacter  >>> span {
     float: left;
