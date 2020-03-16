@@ -277,7 +277,7 @@ export default {
         this.tab = 'tab-1'
         return
       }
-      if (val < 830) {
+      if (val < 1000) {
         this.tab = 'tab-2'
         return
       }
