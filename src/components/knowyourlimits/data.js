@@ -27,7 +27,7 @@ const articleInfo = {
   },
   _4: {
     paragraph: paragraph4,
-    title: 'Intro Crypto Storage: 1000 USD Limit'
+    title: 'Intro Crypto Storage: 1,000 USD Limit'
   },
   _5: {
     title: 'Basic Multisig: 5,000 USD Limit',
