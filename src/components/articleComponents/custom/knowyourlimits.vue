@@ -4,7 +4,7 @@
       no-gutters
       justify='center'
       align='center'
-      style="width:100vw;height:75vh;"
+      style="width:100vw;height:90vh;"
     >
       <v-col
       cols='12'
@@ -15,7 +15,7 @@
     max-width="30vw"
   >
     <v-card-text justify='center' align='center'>
-      <div class="display-1 text--primary">Crypto Amount(USD):</div>
+      <div class="display-1 text--primary">Crypto Amount (USD):</div>
       <v-text-field
         :rules="[rules.sign, rules.inScope]"
         type="number"
@@ -26,7 +26,7 @@
       ></v-text-field>
     </v-card-text>
   </v-card>
-      <v-card style="height:50vh;">
+      <v-card style="">
         <v-tabs
           v-model="tab"
           :background-color="backColor1"
@@ -55,15 +55,187 @@
           </v-tab>
         </v-tabs>
 
-        <v-tabs-items v-model="tab">
+        <v-tabs-items v-model="tab" black--text>
           <v-tab-item
-            v-for="i in 4"
-            :key="i"
-            :value="'tab-' + i"
+            value="tab-1"
+            black--text
+            align='center'
+            justify='center'
           >
-            <v-card flat>
-              <v-card-text>{{ text }}</v-card-text>
-            </v-card>
+            <!-- <v-card black--text>
+              <v-card-text>Hi</v-card-text>
+            </v-card> -->
+            <div class="display-1 mt-3 mb-3">Use App On Phone or Laptop</div>
+            <v-row
+                no-gutters
+                style=""
+                class="mt-2"
+                justify='center'
+              >
+                <v-col
+                cols='4'
+                >
+                  <v-card
+                    class="text-center"
+                    tile flat
+                  >
+                  <v-card-title class="justify-center display-1">Phone</v-card-title>
+                    <v-btn :color="backColor1" href="https://www.exodus.io/mobile/" target="_blank">Exodus Mobile</v-btn>
+                  </v-card>
+                </v-col>
+                <v-col
+                cols='4'
+                >
+                  <v-card
+                    class=""
+                    flat
+                    tile
+                  >
+                  <v-card-title class="justify-center display-1">Computer</v-card-title>
+                    <v-btn :color="backColor1" href="https://www.exodus.io/desktop/" target="_blank">Exodus Desktop</v-btn>
+                  </v-card>
+                </v-col>
+                <v-col
+                cols='6'
+                class="pa-4"
+                >
+                <v-img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1584341868/decenblog/limits/Exodus_logo_dark.svg" ></v-img>
+                </v-col>
+              </v-row>
+          </v-tab-item>
+
+          <v-tab-item
+            value="tab-2"
+            black--text
+            align='center'
+            justify='center'
+          >
+            <div class="display-1 mt-3 mb-3">Use Hardware Wallet</div>
+            <v-row
+                no-gutters
+                style=""
+                class="mt-2"
+                justify='center'
+              >
+                <v-col
+                cols='4'
+                >
+                  <v-card
+                    class="text-center"
+                    tile flat
+                  >
+                  <v-card-title class="justify-center headline">Budget (40 USD)</v-card-title>
+                    <v-btn :color="backColor1" href="https://www.amazon.com/Trezor-One-Cryptocurrency-Protection-including/dp/B00R6MKDDE"
+                    target="_blank">Trezor One</v-btn>
+                  </v-card>
+                </v-col>
+                <v-col
+                cols='4'
+                >
+                  <v-card
+                    class=""
+                    flat
+                    tile
+                  >
+                  <v-card-title class="justify-center headline">Luxury (152 USD)</v-card-title>
+                    <v-btn :color="backColor1" href="https://www.amazon.com/Trezor-T-Model/dp/B07B8Q2G3K"
+                    target="_blank">Trezor Model T</v-btn>
+                  </v-card>
+                </v-col>
+                <v-col
+                cols='6'
+                class="pa-4"
+                >
+                <v-img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1584342984/decenblog/limits/trezor.svg" ></v-img>
+                </v-col>
+              </v-row>
+          </v-tab-item>
+          <v-tab-item
+            value="tab-3"
+            black--text
+            align='center'
+            justify='center'
+          >
+            <div class="display-1 mt-3">Hardware Wallet Multisig</div>
+            <div class="subtitle-1 mb-3">Electrum (Bitcoin Only)</div>
+            <div class="body-1">Rules:</div>
+            <div class="body-1">2 of 3 Multisig</div>
+            <div class="body-1">3 Different Devices from Different Places</div>
+            <v-row
+                no-gutters
+                style=""
+                class="mt-2"
+                justify='center'
+              >
+                <v-col
+                cols='4'
+                >
+                  <v-card
+                    class="text-center"
+                    tile flat
+                  >
+                  <v-card-title class="justify-center headline">Trezor One</v-card-title>
+                    <v-btn :color="backColor1" href="https://www.amazon.com/Trezor-One-Cryptocurrency-Protection-including/dp/B00R6MKDDE"
+                    target="_blank">Trezor One</v-btn>
+                  </v-card>
+                </v-col>
+                <v-col
+                cols='4'
+                >
+                  <v-card
+                    class=""
+                    flat
+                    tile
+                  >
+                  <v-card-title class="justify-center headline">Trezor Model T</v-card-title>
+                    <v-btn :color="backColor1" href="https://www.amazon.com/Trezor-T-Model/dp/B07B8Q2G3K"
+                    target="_blank">Trezor Model T</v-btn>
+                  </v-card>
+                </v-col>
+                <v-col
+                cols='4'
+                >
+                  <v-card
+                    class=""
+                    flat
+                    tile
+                  >
+                  <v-card-title class="justify-center headline">Cold Card</v-card-title>
+                    <v-btn :color="backColor1" href="https://coldcardwallet.com/"
+                    target="_blank">Cold Card</v-btn>
+                  </v-card>
+                </v-col>
+                <v-col
+                cols='6'
+                class="pa-4"
+                >
+                <a href="https://electrum.readthedocs.io/en/latest/multisig.html"
+                target="_blank"><div class="display-4 mb-3" >Electrum</div></a>
+                </v-col>
+              </v-row>
+          </v-tab-item>
+          <v-tab-item
+            value="tab-4"
+            black--text
+            align='center'
+            justify='center'
+          >
+            <div class="display-1 mt-3">Multisig Multi-Location</div>
+            <div class="subtitle-1 mb-3">Casa Keymaster</div>
+            <v-row
+                no-gutters
+                style=""
+                class="mt-2"
+                justify='center'
+              >
+                <v-col
+                cols='12'
+                class="pa-4"
+                >
+                <a href="https://keys.casa/keymaster/"
+                target="_blank"><div class="display-4 mb-3" >Casa Keymaster</div></a>
+                </v-col>
+              </v-row>
           </v-tab-item>
         </v-tabs-items>
       </v-card>
@@ -84,8 +256,7 @@ export default {
         inScope: value => (value <= 20000 || 'Seek Specialized Assistance for This Amount.')
       },
       tab: null,
-      amount: null,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      amount: null
     }
   },
   methods: {
@@ -116,3 +287,9 @@ export default {
   }
 }
 </script>
+<style scoped>
+a {
+  color: #1976D2;
+  text-decoration: none; /* no underline */
+}
+</style>
