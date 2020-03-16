@@ -82,9 +82,9 @@ export default {
     buttonObject: 'hidden-sm-and-down mr-2',
     drawer: null,
     opts: [
-      { title: 'Home', icon: 'home', link: 'https://guidingwallet.app' },
-      { title: 'Blog', icon: 'book-open-outline', color: 'grey darken-2', link: '' },
-      { title: 'Download', icon: 'download', link: 'https://guidingwallet.app#Download' }
+      { title: 'Home', icon: 'home', link: 'https://guidingwallet.app', color: 'grey darken-3' },
+      { title: 'Blog', icon: 'book-open-outline', color: 'grey', link: 'https://guidingwallet.app/blog' },
+      { title: 'Download', icon: 'download', color: 'grey darken-3', link: 'https://guidingwallet.app#Download' }
     ]
   })
 }
