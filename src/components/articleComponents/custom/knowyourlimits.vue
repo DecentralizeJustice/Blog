@@ -3,7 +3,7 @@
     <v-row
       no-gutters
       justify='center'
-      style="width:100vw;min-height:90vh;"
+      style="width:100vw;"
     >
     <v-col
     cols='12'
