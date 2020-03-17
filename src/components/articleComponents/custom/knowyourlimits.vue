@@ -273,6 +273,7 @@
                 <v-col
                 cols='12'
                 md='12'
+                class="mb-2"
                 >
                     <v-btn :color="backColor1" href="https://keys.casa/keymaster/"
                     target="_blank">Casa Keymaster</v-btn>
