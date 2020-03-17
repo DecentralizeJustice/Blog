@@ -3,28 +3,44 @@
     <v-row
       no-gutters
       justify='center'
-      align='center'
       style="width:100vw;min-height:90vh;"
     >
+    <v-col
+    cols='12'
+    class="pa-0 ma-0"
+    align='end'
+    >
+    <v-row
+      justify='center'
+      align='end'
+      :class="{'mb-3': $vuetify.breakpoint.smAndDown }"
+    >
       <v-col
-      cols='12'
-      md='7'
+      cols='9'
+      md='4'
       >
-      <v-card
-    class="mx-auto mb-5"
+        <v-card
+        class="mx-auto">
+        <v-card-text justify='center' align='center'>
+          <div class="display-1 text--primary">Crypto Amount (USD):</div>
+          <v-text-field
+            :rules="[rules.sign, rules.inScope]"
+            type="number"
+            placeholder="0 USD"
+            class="mt-3"
+            v-model="amount"
+            v-on:focus="update(amount)"
+          ></v-text-field>
+        </v-card-text>
+      </v-card>
+    </v-col>
+  </v-row>
+</v-col>
+  <v-col
+  cols='12'
+  md='8'
+  align='start'
   >
-    <v-card-text justify='center' align='center'>
-      <div class="display-1 text--primary">Crypto Amount (USD):</div>
-      <v-text-field
-        :rules="[rules.sign, rules.inScope]"
-        type="number"
-        placeholder="0 USD"
-        class="mt-3"
-        v-model="amount"
-        v-on:focus="update(amount)"
-      ></v-text-field>
-    </v-card-text>
-  </v-card>
       <v-card style="">
         <v-tabs
           v-model="tab"
