@@ -255,6 +255,7 @@
             justify='center'
           >
             <div class="display-1 mt-3">Multisig Multi-Location</div>
+            <div class="subtitle-1 mb-3">(Bitcoin Only)</div>
             <v-row
                 no-gutters
                 style=""
