@@ -1,10 +1,19 @@
 <template>
-
-  <v-layout align-start row wrap v-if="posts != undefined" pt-2 >
-    <v-flex v-for="post in posts" :key="post.id" xs10 md3 mt-1 mb-1  offset-xs1 class="cardSpace">
-      <router-link :to= "post.routerlink">
+  <v-container fluid v-if="posts != undefined">
+    <v-row
+      no-gutters
+      justify='center'
+      justify-md='start'
+    >
+    <v-col
+        v-for="post in posts" :key="post.id"
+        md='3'
+        offset-md='1'
+        cols='10'
+      >
+      <router-link :to= "post.routerlink" >
            <v-card
-             class="mx-auto"
+             class=""
              color="grey darken-4"
            >
            <v-img
@@ -22,9 +31,9 @@
           </v-card-text>
            </v-card>
          </router-link>
-    </v-flex>
-  </v-layout>
-
+       </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
