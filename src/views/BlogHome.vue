@@ -16,7 +16,7 @@ export default {
 
 <style scoped>
 .back {
-  background-color: rgb(29, 66, 76);
+  background-image: linear-gradient(to bottom, rgb(29, 66, 76) , #486E70);
   height:100%;
 }
 </style>
