@@ -25,10 +25,6 @@
              {{subHeading}}
            </div>
          </v-flex>
-    <img
-    src="https://res.cloudinary.com/dylevfpbl/image/upload/v1554347922/decenblog/scroll-down-icon.png"
-    alt="Scroll Down"
-    class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
     </v-flex>
   </div>
 </template>
@@ -49,7 +45,7 @@ export default {
       return 'position:relative;height:80vh; background-image: url(' + this.background + ' )'
     },
     styleMobile () {
-      return 'position:relative;height:90vh;overflow:hidden; background-image: url(' + this.background + ' )'
+      return 'position:relative;height:100vh;overflow:hidden; background-image: url(' + this.background + ' )'
     }
   }
 }
