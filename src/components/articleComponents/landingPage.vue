@@ -16,7 +16,7 @@
     class="bounce" style="width:9vh;height:auto;left:49vw;height:auto;">
   </v-flex>
   <v-flex class="intro hidden-md-and-up xs12" :style="styleMobile">
-           <v-flex class="title" xs10 offset-xs1 pa-4 :style="styleBackColor">
+           <v-flex class="mobileTitle" xs12 pa-4 :style="styleBackColor">
            <div class="display-3 white--text font-weight-medium" >
              {{title}}
            </div>
@@ -57,6 +57,10 @@ export default {
   position: relative;
   top: 15vh;
   border-radius: 3%;
+}
+.mobileTitle{
+  position: relative;
+  top: 15vh;
 }
 .intro {
   overflow: hidden;
