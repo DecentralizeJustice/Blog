@@ -22,6 +22,8 @@
       <section
       :style="styleBorderColor" class="firstcharacter" v-html="paragraph">
       </section>
+      <v-img :src="imgUrl" class="text-center" style="width:75%;margin-left: auto;
+  margin-right: auto;"></v-img>
       </div>
     </v-flex>
 
