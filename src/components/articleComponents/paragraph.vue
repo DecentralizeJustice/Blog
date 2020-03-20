@@ -65,7 +65,8 @@ export default {
 
 <style scoped>
 .customTitle{
-
+  font-size:2rem;
+  line-height:2rem;
 }
 .firstcharacter  >>> span {
     float: left;
@@ -102,7 +103,7 @@ export default {
   margin-bottom:2%;
   width:95vw;
   margin-left:2.5vw;
-  font-size:1.2rem;
+  font-size:1.4rem;
   line-height:1.5rem;
   background-color:white;
 }
