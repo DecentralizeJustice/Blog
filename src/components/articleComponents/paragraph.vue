@@ -16,11 +16,9 @@
     </v-flex>
 
     <v-flex xs12 class="hidden-md-and-up mobilebackground" :style="styleBackground">
-      <div class="mobileText "
-      :style="styleBorderColor">
+      <div class="mobileText ">
       <h2 class="customTitle text-center  mb-3">{{title}}</h2>
-      <section
-      :style="styleBorderColor" class="firstcharacter" v-html="paragraph">
+      <section class="firstcharacter" v-html="paragraph">
       </section>
       <v-img :src="imgUrl" class="text-center" style="width:75%;margin-left: auto;
   margin-right: auto;"></v-img>
@@ -107,7 +105,5 @@ export default {
   font-size:1.2rem;
   line-height:1.5rem;
   background-color:white;
-  border-style:solid;
-  border-width: 1vh;
 }
 </style>
