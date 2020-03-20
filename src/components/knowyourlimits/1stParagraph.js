@@ -1,7 +1,8 @@
 const paragraph1 =
 `
-<p>Making decisions about cryptocurrencies can be really hard. You read many people on twitter saying bitcoin is the only true crypto and all other coins are just trash. You see other people say that bitcoin is outdated and alt-coins are the future. This isn’t just on twitter ,but on reddit, youtube, facebook and any other medium you can imagine. It’s hard to tell what cryptocurrency to even buy,  and this article won’t help with that. Sorry. But it will help you keep whatever crypto you choose to hodl.</p>
-Regardless of whatever crypto that you choose to use you have to store it. Your crypto can be stolen or lost. If you store your crypto correctly though you can minimize your risk. Here some guidelines for storing your crypto based  on how much you have.
+<p>Cryptocurrencies in general can be confusing, but storing them shouldn't be. In order to help you store your crypto here are some guidelines for crypto storage based upon how much crypto you have. If you want the details behind these guidelines take a look at this article. There is also a tool at the bottom of this article that lets your plug in how much crypto you have and it will give you some options on how to follow these guidelines. Let’s start with a low amount of crypto and how you should store it. 
+</p>
+
 `
 
 export default paragraph1

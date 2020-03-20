@@ -10,7 +10,6 @@
       >
       </section>
       </div>
-
     </v-flex>
 
     <v-flex xs12 class="hidden-md-and-up mobilebackground" :style="styleBackground">

@@ -23,18 +23,18 @@ const articleInfo = {
     'photo': 'https://res.cloudinary.com/dylevfpbl/image/upload/v1584386015/decenblog/limits/person-holding-100-us-dollar-banknote-928188.jpg' },
   _3: {
     paragraph: paragraph3,
-    title: 'Whatever You Have: 130 USD Limit'
+    title: 'Whatever You Have: 0 - 130 USD'
   },
   _4: {
     paragraph: paragraph4,
-    title: 'Intro Crypto Storage: 1,000 USD Limit'
+    title: 'Intro Crypto Storage: 130 - 1,000 USD'
   },
   _5: {
-    title: 'Basic Multisig: 5,000 USD Limit',
+    title: 'Basic Multisig: 1,000 - 5,000 USD',
     paragraph: paragraph5
   },
   _6: {
-    title: 'Multi-Location Multisig: 20,000 USD Limit',
+    title: 'Multi-Location Multisig: 5,000 - 20,000 USD',
     paragraph: paragraph6
   },
   _7: {
