@@ -14,17 +14,20 @@
       <titleAndPhoto :title= 'articleInfo._2.title'
         :photo='articleInfo._2.photo'
         :backgroundColor='articleInfo.backgroundColor_1'
-        :size='3'/>
+        :size='3'
+        />
 
       <paragraph :paragraph='articleInfo._3.paragraph'
       :backgroundColor1 ='articleInfo.backgroundColor_1'
       :backgroundColor2 ='articleInfo.backgroundColor_2'
-      :title='articleInfo._3.title'/>
+      :title='articleInfo._3.title'
+      :imgUrl='articleInfo._3.imgUrl'/>
 
       <paragraph :paragraph='articleInfo._4.paragraph'
       :backgroundColor1 ='articleInfo.backgroundColor_2'
       :backgroundColor2 ='articleInfo.backgroundColor_1'
-      :title='articleInfo._4.title'/>
+      :title='articleInfo._4.title'
+      :imgUrl='articleInfo._4.imgUrl'/>
 
       <paragraph :paragraph='articleInfo._5.paragraph'
       :backgroundColor1 ='articleInfo.backgroundColor_1'
@@ -63,6 +66,8 @@ export default {
     return {
       articleInfo: articleInfo
     }
+  },
+  mounted () {
   }
 }
 </script>

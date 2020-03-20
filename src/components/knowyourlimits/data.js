@@ -23,11 +23,13 @@ const articleInfo = {
     'photo': 'https://res.cloudinary.com/dylevfpbl/image/upload/v1584386015/decenblog/limits/person-holding-100-us-dollar-banknote-928188.jpg' },
   _3: {
     paragraph: paragraph3,
-    title: 'Whatever You Have: 0 - 130 USD'
+    title: 'Whatever You Have: 0 - 130 USD',
+    imgUrl: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1584730359/decenblog/limits/selective-focus-photography-of-person-holding-turned-on-1092644.jpg'
   },
   _4: {
     paragraph: paragraph4,
-    title: 'Intro Crypto Storage: 130 - 1,000 USD'
+    title: 'Intro Crypto Storage: 130 - 1,000 USD',
+    imgUrl: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1584730474/decenblog/limits/Trezor-model-t-photo-front.jpg'
   },
   _5: {
     title: 'Basic Multisig: 1,000 - 5,000 USD',

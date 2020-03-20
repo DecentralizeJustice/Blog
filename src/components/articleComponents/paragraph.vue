@@ -9,7 +9,10 @@
        v-html="paragraph"
       >
       </section>
+      <v-img :src="imgUrl" class="text-center" style="width:40%;margin-left: auto;
+  margin-right: auto;"></v-img>
       </div>
+
     </v-flex>
 
     <v-flex xs12 class="hidden-md-and-up mobilebackground" :style="styleBackground">
@@ -30,6 +33,7 @@ export default {
   name: 'paragraph',
   props: {
     paragraph: String,
+    imgUrl: String,
     title: {
       type: String,
       default: ''
@@ -53,6 +57,8 @@ export default {
     }
   },
   computed: {
+  },
+  mounted () {
   }
 }
 </script>
