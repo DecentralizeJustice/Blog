@@ -4,7 +4,7 @@
     <v-flex xs12 class="hidden-sm-and-down background"  :style="styleBackground">
       <div class="norm"
       :style="styleBorderColor">
-      <h2 class="customTitle text-center  mb-3 display-2">{{title}}</h2>
+      <h2 class="customTitle text-center  mb-3 display-2" style="line-height: 110%;">{{title}}</h2>
       <section class="firstcharacter"
        v-html="paragraph"
       >
