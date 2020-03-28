@@ -1,5 +1,5 @@
 <template>
-  <v-flex class="back" xs12>
+  <v-flex class="back" xs12 style="min-height:90vh;">
     <cards/>
   </v-flex>
 </template>

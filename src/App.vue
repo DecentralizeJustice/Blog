@@ -73,6 +73,38 @@
     <v-content>
       <router-view/>
     </v-content>
+    <v-footer
+  dark
+  padless
+>
+  <v-card
+    flat
+    tile
+    color='rgb(29, 66, 76)'
+    class="white--text text-center"
+    style="width:100%;"
+  >
+    <v-card-text>
+      <v-btn
+        v-for="icon in icons"
+        :key="icon"
+        class="mx-4 white--text"
+        icon
+        href='https://twitter.com/GuidingWallet' link=true
+      >
+        <v-icon size="24px">
+          {{ icon }}
+        </v-icon>
+      </v-btn>
+    </v-card-text>
+
+    <v-divider></v-divider>
+
+    <v-card-text class="white--text">
+      {{ new Date().getFullYear() }} — <strong>Guiding Wallet</strong>
+    </v-card-text>
+  </v-card>
+</v-footer>
   </v-app>
 </template>
 <script>
@@ -81,6 +113,9 @@ export default {
   data: () => ({
     buttonObject: 'hidden-sm-and-down mr-2',
     drawer: null,
+    icons: [
+      'mdi-twitter'
+    ],
     opts: [
       { title: 'Home', icon: 'home', link: 'https://guidingwallet.app', color: 'grey darken-3' },
       { title: 'Blog', icon: 'book-open-outline', color: 'grey', link: 'https://guidingwallet.app/blog' },
