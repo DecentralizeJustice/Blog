@@ -11,7 +11,7 @@ const articleInfo = {
   backgroundColor_2: '#486E70',
   landingPage: {
     title: 'Details of Crypto Limits',
-    subHeading: 'The Details to the <a href="https://guidingwallet.app/blog/knowyourlimits">Crypto Storage Guidlines</a>',
+    subHeading: 'The Details to the <a href="https://guidingwallet.app/blog/knowyourlimits">Crypto Storage Guidelines</a>',
     background: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1585334210/decenblog/limitsdetails/landscape-photo-of-mountain-with-polar-lights-1434608.jpg',
     color: 'rgb(29, 66, 76,.9)'
   },

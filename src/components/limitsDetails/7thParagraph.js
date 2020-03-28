@@ -9,10 +9,10 @@ They help you keep your crypto keys off
 <a href="https://medium.com/mycrypto/disclosure-key-generation-vulnerability-found-on-walletgenerator-net-potentially-malicious-3d8936485961">unsafe computers</a>
 by handling all the signing and processing of your crypto keys on the device itself, unlike a paper wallet.
 <br><br>
-I wish we had more data to base the guidlines off. They are currenlty based on keeping a 10% to 30% security ratio but it would be better to 
-base it off of data from actual hacks. If we had an omniscient soruce of data we could assess the chances of each setup getting hack and how much money places you at risk.
-We don't have this data thouhg and due to the distributed and private nature of crypto storage I am unsure if we will have access to this kind of data. So currenlty the best way to
-put a number to any guidlines is the one we are currently using.
+I wish we had more data to base the guidelines off. They are currently based on keeping a 10% to 30% security ratio but it would be better to 
+base it off of data from actual hacks. If we had an omniscient source of data we could assess the chances of each setup getting hack and how much money places you at risk.
+We don't have this data though and due to the distributed and private nature of crypto storage I am unsure if we will have access to this kind of data. So currently the best way to
+put a number to any guidelines is the one we are currently using.
 `
 
 export default paragraph5

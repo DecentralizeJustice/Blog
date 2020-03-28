@@ -13,11 +13,11 @@ we won’t have anything to secure. So it’s about finding a balance. We don’
 our security, that would be like spending a dollar to protect a hundred. And gives us a security budget
 to protected amount ratio of 1%. The goal for most of the tiers is to stay somewhere in between 10% and 30%.
 This ratio does not guarantee your money’s safety, but if you go below the 10% for most tiers you are decreasing your security
- ratio and not properly investing in your security. Neglecting your secruity investment might seem ok right up to the
- point that you loose your crypto.
+ ratio and not properly investing in your security. Neglecting your security investment might seem ok right up to the
+ point that you loose your crypto. You should buy the best security setup that you can reasonably afford, and I believe 10% to 30% security ratio means you can reasonably afford said security.
 Don’t lose a hundreds dollars trying to save a buck. Everybody will have their own bounds for their security ratio,
 but I will not recommend anything beyond the bounds listed here for the safety of our readers.
-Now that I am done exalting the importance of proper secruity investments(for now), lets dive into the security details of the Use Whatver You Have tier.
+Now that I am done exalting the importance of proper security investments(for now), lets dive into the security details of the Use Whatever You Have tier.
 </p>
 `
 

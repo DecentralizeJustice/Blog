@@ -6,7 +6,7 @@ I will this article updated also, so bookmark it and revisit every so often to s
 </p>
 
 Power To The People,<br>
-DGunn
+Donely Gunn
 
 `
 

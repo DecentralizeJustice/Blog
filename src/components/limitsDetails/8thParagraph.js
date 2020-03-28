@@ -5,7 +5,7 @@ Any comments, compliments, or concerns can be tweeted at
 </p>
 
 Power To The People,<br>
-DGunn
+Donely Gunn
 
 `
 
