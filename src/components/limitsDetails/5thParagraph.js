@@ -8,6 +8,10 @@ Although no hardware wallets have been hacked in the while, I still reccomend pe
 Although no attacks are documented in the wild, plenty of attacks exist in theory and 
 <a href="https://blog.trezor.io/psa-non-genuine-trezor-devices-979b64e359a7">practice</a>.
 People will begin to attack hardware wallets in the wild, and you should invest in your security before you need it, because after you need it , it is usually too late.
+I really wish there was a product that I could reccomend at this tier, but there isn't one currenlty that makes it easy for people to do 2 of 3 hardware based multisig.
+I'm sure that someone will make one evntually 
+<a href="https://guidingwallet.app/">cough cough</a>, but at this moment the best thing out there is electrum. 
+Electrum is a tool, not a product and the ux shows that, but its the best out there right now.
 At this tier our biggest danger is losing your keys to natural disasters such as a storm or flood. The next tier helps save your keys from natural disasters. 
 </p>
 `

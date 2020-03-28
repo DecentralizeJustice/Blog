@@ -41,7 +41,7 @@ const articleInfo = {
     paragraph: paragraph6
   },
   _7: {
-    title: 'Bonus',
+    title: 'Miscellaneous',
     paragraph: paragraph7
   },
   _8: {
