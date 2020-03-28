@@ -10,6 +10,7 @@
         md='3'
         offset-md='1'
         cols='10'
+        class="mt-3"
       >
       <router-link :to= "post.routerlink" >
            <v-card
