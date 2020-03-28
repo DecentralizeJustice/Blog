@@ -6,8 +6,7 @@
              {{title}}
            </div>
            <br>
-           <div class="white--text display-1 font-weight-light">
-             {{subHeading}}
+           <div class="white--text display-1 font-weight-light" v-html="subHeading">
            </div>
          </v-flex>
     <img
@@ -21,8 +20,7 @@
              {{title}}
            </div>
            <br>
-           <div class="white--text display-1 font-weight-light">
-             {{subHeading}}
+           <div class="white--text display-1 font-weight-light" v-html="subHeading">
            </div>
          </v-flex>
     </v-flex>
@@ -52,7 +50,9 @@ export default {
 </script>
 
 <style scoped>
-
+a{
+  color: hotpink;
+}
 .title{
   position: relative;
   top: 15vh;
