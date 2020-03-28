@@ -1,3 +1,4 @@
+import paragraph0 from '@/components/knowyourlimits/0thParagraph.js'
 import paragraph1 from '@/components/knowyourlimits/1stParagraph.js'
 import paragraph3 from '@/components/knowyourlimits/3rdParagraph.js'
 import paragraph4 from '@/components/knowyourlimits/4thParagraph.js'
@@ -13,11 +14,15 @@ const articleInfo = {
     background: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1554165921/decenblog/embrace/drivemain.jpg',
     color: 'rgb(29, 66, 76,.9)'
   },
+  _0: {
+    title: 'TLDR: How To Protect Your Crypto',
+    paragraph: paragraph0
+  },
   _1: {
     paragraph: paragraph1
   },
   _2: {
-    title: `Like Cash, you don't keep your entire net worth in your pocket, 
+    title: `Like Cash, you don't keep your entire net worth in your pocket,
     you keep walking around money for incidental expenses. <br>  - Satoshi Nakomoto`,
     // eslint-disable-next-line
     'photo': 'https://res.cloudinary.com/dylevfpbl/image/upload/v1584386015/decenblog/limits/person-holding-100-us-dollar-banknote-928188.jpg' },

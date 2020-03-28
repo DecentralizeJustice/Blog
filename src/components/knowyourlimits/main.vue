@@ -6,6 +6,14 @@
         :background='articleInfo.landingPage.background'
         :color= 'articleInfo.landingPage.color' />
 
+      <paragraph :paragraph='articleInfo._0.paragraph'
+      :backgroundColor1 ='articleInfo.backgroundColor_1'
+      :backgroundColor2 ='articleInfo.backgroundColor_2'
+      :title='articleInfo._0.title'/>
+
+      <tool :backColor ='articleInfo.backgroundColor_1'
+        :backColor1='articleInfo.backgroundColor_2'/>
+
       <paragraph :paragraph='articleInfo._1.paragraph'
       :backgroundColor1 ='articleInfo.backgroundColor_1'
       :backgroundColor2 ='articleInfo.backgroundColor_2'
@@ -43,8 +51,6 @@
       :backgroundColor1 ='articleInfo.backgroundColor_1'
       :backgroundColor2 ='articleInfo.backgroundColor_2'/>
 
-      <tool :backColor ='articleInfo.backgroundColor_1'
-        :backColor1='articleInfo.backgroundColor_2'/>
     </v-layout >
 </template>
 
