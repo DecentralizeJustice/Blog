@@ -11,7 +11,7 @@ const articleInfo = {
   landingPage: {
     title: 'Know Your Crypto Limits',
     subHeading: 'Be smart with your Crypto. Follow these crypto limits.',
-    background: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1554165921/decenblog/embrace/drivemain.jpg',
+    background: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1585334210/decenblog/limitsdetails/landscape-photo-of-mountain-with-polar-lights-1434608.jpg',
     color: 'rgb(29, 66, 76,.9)'
   },
   _0: {
