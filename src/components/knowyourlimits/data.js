@@ -41,7 +41,7 @@ const articleInfo = {
     paragraph: paragraph5
   },
   _6: {
-    title: 'Multi-Location Multisig: 5,000 - 20,000 USD',
+    title: 'Multi-Location Multisig: Over 5,000',
     paragraph: paragraph6
   },
   _7: {
