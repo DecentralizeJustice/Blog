@@ -296,8 +296,8 @@ export default {
   data () {
     return {
       rules: {
-        sign: value => (Math.sign(value) >= 0 || 'Must Be Positive Amount'),
-        inScope: value => (value <= 20000 || 'Seek Specialized Assistance for This Amount.')
+        sign: value => (Math.sign(value) >= 0 || 'Must Be Positive Amount')
+        // inScope: value => (value <= 20000 || 'Seek Specialized Assistance for This Amount.')
       },
       tab: null,
       amount: null
@@ -317,7 +317,7 @@ export default {
         this.tab = 'tab-3'
         return
       }
-      if (val < 20001) {
+      if (val < 9999999999999999999999999999) {
         this.tab = 'tab-4'
         return
       }
